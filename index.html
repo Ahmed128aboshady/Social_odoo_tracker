@@ -11,7 +11,7 @@
     <!-- FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom Style -->
-    <link rel="stylesheet" href="style.css?v=9">
+    <link rel="stylesheet" href="style.css?v=10">
 </head>
 <body>
     <div class="app-container">
@@ -184,6 +184,10 @@
                                     <textarea id="settings-fb-groups" rows="6" style="width:100%; background:rgba(255,255,255,0.03); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:12px; color:var(--text-primary); outline:none; font-size:14px; font-family:monospace; line-height: 1.5;"></textarea>
                                 </div>
                                 <div class="form-group">
+                                    <label style="display:block; margin-bottom:8px; font-weight:600;">Facebook Group Keywords (Comma separated - filters posts containing these words)</label>
+                                    <input type="text" id="settings-fb-keywords" style="width:100%; background:rgba(255,255,255,0.03); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:12px; color:var(--text-primary); outline:none; font-size:14px;">
+                                </div>
+                                <div class="form-group">
                                     <label style="display:block; margin-bottom:8px; font-weight:600;">LinkedIn Job Queries (Comma separated)</label>
                                     <input type="text" id="settings-li-queries" style="width:100%; background:rgba(255,255,255,0.03); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:12px; color:var(--text-primary); outline:none; font-size:14px;">
                                 </div>
@@ -215,6 +219,6 @@
     </div>
 
     <!-- Custom Script -->
-    <script src="app.js?v=9"></script>
+    <script src="app.js?v=10"></script>
 </body>
 </html>

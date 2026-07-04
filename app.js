@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Settings elements
     const tabSettings = document.getElementById("tab-settings");
     const settingsFbGroups = document.getElementById("settings-fb-groups");
+    const settingsFbKeywords = document.getElementById("settings-fb-keywords");
     const settingsLiQueries = document.getElementById("settings-li-queries");
     const settingsLiPostQueries = document.getElementById("settings-li-post-queries");
     const saveSettingsBtn = document.getElementById("save-settings-btn");
@@ -486,6 +487,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const config = await response.json();
             
             settingsFbGroups.value = (config.facebook_groups || []).join("\n");
+            settingsFbKeywords.value = (config.facebook_keywords || []).join(", ");
             settingsLiQueries.value = (config.linkedin_queries || []).join(", ");
             settingsLiPostQueries.value = (config.linkedin_post_queries || []).join(", ");
         } catch (err) {
@@ -498,6 +500,7 @@ document.addEventListener("DOMContentLoaded", () => {
     async function saveSettings() {
         const payload = {
             facebook_groups: settingsFbGroups.value.split("\n").map(line => line.trim()).filter(line => line.length > 0),
+            facebook_keywords: settingsFbKeywords.value.split(",").map(k => k.trim()).filter(k => k.length > 0),
             linkedin_queries: settingsLiQueries.value.split(",").map(q => q.trim()).filter(q => q.length > 0),
             linkedin_post_queries: settingsLiPostQueries.value.split(",").map(q => q.trim()).filter(q => q.length > 0)
         };

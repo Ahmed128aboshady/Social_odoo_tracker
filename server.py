@@ -25,6 +25,7 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                 # Sanitize response by excluding token
                 sanitized_config = {
                     "facebook_groups": config_data.get("facebook", {}).get("groups", []),
+                    "facebook_keywords": config_data.get("facebook", {}).get("keywords", []),
                     "linkedin_queries": config_data.get("linkedin_jobs", {}).get("queries", []),
                     "linkedin_post_queries": config_data.get("linkedin_posts", {}).get("queries", [])
                 }
@@ -60,6 +61,8 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                 
                 if "facebook_groups" in new_config:
                     current_config["facebook"]["groups"] = new_config["facebook_groups"]
+                if "facebook_keywords" in new_config:
+                    current_config["facebook"]["keywords"] = new_config["facebook_keywords"]
                 if "linkedin_queries" in new_config:
                     current_config["linkedin_jobs"]["queries"] = new_config["linkedin_queries"]
                 if "linkedin_post_queries" in new_config:
