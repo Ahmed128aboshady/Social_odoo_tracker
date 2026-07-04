@@ -3,97 +3,97 @@
     {
       "date": "2026-07-04T10:00:50.000Z",
       "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2018508195446524/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "اهلا بيكم في جروب Odoo ERP ساهم بأسئلتك وفيديوهاتك وعروضك مع تمنياتي بالتوفيق محاسب قانوني عادل طيبي \n01017518091\nAdham Elmalke,\nMenna Salama,\nMohamed Ashraf,\nBashar Kh,\nMohamed Osama,\nElsayed Ibrahim,\nWeerut Pan,\nAhoud S. Youssef,\nEmad Zayan,\nTzunə,\nالباز أفندي سمسار وقباني,\nميادة رمضان,\nAhmed Tamer,\nAd Support Pro"
     },
     {
       "date": "2026-07-03T09:37:29.000Z",
       "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2017610682202942/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "اهلا بيكم في جروب Odoo ERP ساهم بأسئلتك وفيديوهاتك وعروضك مع تمنياتي بالتوفيق محاسب قانوني عادل طيبي \n01017518091\nالبداية سر النجاح ,\nMariem Tawfek,\nYoussef Anous Elseginy,\nNour Magdi,\nAhmed Profo,\nOmar Alsayed,\nAdan Garnica Carrillo,\nNabil Eldeeb,\nSK Technology - Odoo ERP Services"
     },
     {
       "date": "2026-07-04T04:23:25.000Z",
       "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2515440338896882/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "كيفية استخدام Price Lists في Odoo لإدارة أسعار المنتجات بطريقة احترافية.\n\n✅ ما هي Price Lists؟\n\n✅ إنشاء قائمة أسعار جديدة.\n\n✅ تحديد أسعار مختلفة حسب العميل أو المجموعة.\n\n✅ تطبيق خصومات وعروض تلقائية.\n\n✅ تحديد فترة زمنية لقائمة الأسعار.\n\n✅ التسعير حسب الكمية.\n\n✅ أفضل الممارسات لتجنب أخطاء التسعير.\n\nإذا كنت تعمل على Odoo في المبيعات أو الحسابات أو إدارة الأعمال، فهذا الفيديو سيساعدك على إعداد نظام تسعير مرن واحترافي."
     },
     {
       "date": "2026-07-03T20:31:50.000Z",
       "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2515165228924393/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "هنبدأ  أول برزنتيشن لتعلم الOdoo الرد بنعم لتضاف \nبالاضافه الي ملفات pdf المجانية"
     },
     {
       "date": "2026-07-03T15:57:41.000Z",
       "post_url": "https://www.facebook.com/groups/1441170482773436/permalink/4805191446371306/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "هنبدأ  أول برزنتيشن لتعلم الOdoo الرد بنعم لتضاف \nبالاضافه الي ملفات pdf المجانية"
     },
     {
       "date": "2026-07-03T14:39:53.000Z",
       "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2514913042282945/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "#تريكات_Odoo_Advanced 😉 \nموضوع النهاردة: أتمتة حساب إجمالي عدد المنتجات في أوامر البيع، الشراء، والمخازن 📊 الخيار الذكي البديل للآلة الحاسبة!\nواحدة من أكتر الحاجات المزعجة للمحاسبين وأمناء المخازن لما يستلموا أو يبيعوا أوردر فيه 20 أو 30 صنف، هي إنهم يضطروا يجمعوا كميات السطور يدوياً عشان يتأكدوا إن إجمالي عدد القطع (Total Items/Qty) مظبوط مع الشحنة الفعلية.\nفي تريكة النهاردة، هوريك إزاي بـ Computed Field بسيط وسلس، تخلي أودو يحسب لك إجمالي عدد القطع جوه أمر البيع (Sales Order)، أمر الشراء (Purchase Order)، أو حتى إذن التحويل المخزني (Stock Transfer) تلقائياً ولحظياً!\n✅ الفكرة والحل البرمجي: إضافة حقل مخصص (Custom Field) يعتمد على كود بايثون بسيط (Depends) بيلف على بنود الأوردر (Order Lines) ويجمع كل الكميات المكتوبة عشان يظهر لك الإجمالي في أسفل الصفحة جنب الضرائب والإجمالي المالي.\n✅ النتائج اللي هتشوفها في الفيديو: \n1️⃣ سرعة الرقابة والجرد: أمين المخزن هيطابق إجمالي القطع في الكرتونة مع الرقم الظاهر على السيستم في ثانية واحدة. \n2️⃣ تطبيق مرن: الشرح هيغطّي إزاي تطبق التريكة دي في 3 موديولات أساسية (المبيعات، المشتريات، والمخازن). \n3️⃣ تحديث لحظي: بمجرد تعديل كمية أي صنف في السطور، إجمالي القطع بيتحدث تلقائياً بدون حاجة لحفظ الأوردر أولاً.\n✅ الهدف النهائي: نلغي تماماً احتمالية الخطأ البشري في تجميع الكميات، ونوفر وقت فريق العمل في العمليات اليومية المتكررة. 🎯\nالسيستم الشاطر هو اللي بيوفر وقت موظفينه بلمحة عين. 🎯\nشاهد الفيديو والكود المستخدم من هنا: [https://lnkd.in/datCvdjz] 🔗\nhashtag#Odoo_Development hashtag#Python hashtag#Computed_Fields hashtag#Odoo19 hashtag#Inventory_Management hashtag#Sales_Order hashtag#Purchase_Order hashtag#Advanced_Odoo hashtag#Automation hashtag#Egypt hashtag#Ali_Mohamed hashtag#odoo"
     },
     {
       "date": "2026-07-03T12:04:03.000Z",
       "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2514792522294997/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "فرصه لكل المحاسبين \n تبدأ محاضرات ال Odoo \nالخميس القادم اول محاضرة مجانية من يريد الانضمام يترك تم"
     },
     {
       "date": "2026-07-03T06:54:14.000Z",
       "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2514581058982810/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "AI Is Powerful. Experience Makes It Valuable.\nRecently, there has been significant discussion around reports that Ford brought back experienced engineers after realizing that AI and automation alone were not delivering the expected quality outcomes. The lesson here is not that AI failed — the lesson is that AI without experience has limitations.\n\nThis creates an important message for all of us in the technology and business world:\n\nAI is a tool. A very powerful one.\n\nIt can:\n\n✅ Increase speed\n\n✅ Automate repetitive tasks\n\n✅ Process large amounts of information\n\n✅ Improve productivity\n\nBut practical judgment, business understanding, real-world problem-solving, and years of hands-on experience cannot simply be replaced by algorithms.\n\nThe Ford example highlights a reality many organizations are beginning to understand: machines can assist, but experienced people provide context, direction, and decision-making.\n\nAs ERP professionals, we see the same reality across industries. Technology alone is not enough. Understanding business processes, operational challenges, workflows, and industry-specific requirements is what creates successful digital transformation.\n\nWith the right combination of experience + AI, we can deliver:\n\n✅ Faster requirement analysis\n\n✅ Early solution design and validation\n\n✅ More accurate and business-focused ERP implementation\n\n✅ Smarter automation strategies\n\n✅ Faster project delivery with improved quality\n\nOur experience helps us understand the business. AI helps us accelerate the process.\n\nThis combination allows us to provide early, scalable, and future-ready ERP solutions for any industry while ensuring that technology solves real business problems, not just technical ones.\n\nWe should stop thinking about \"AI vs Humans\" and start focusing on \"AI + Humans.\"\n\nBecause technology can accelerate the process, but experience determines the direction.\n\nAI may increase the speed of work. Experience ensures the work creates value.\n\n#AI #ERP #Odoo #DigitalTransformation #BusinessSolutions #Innovation #FutureOfWork #Technology #ExperienceMatters #BusinessGrowth"
     },
     {
       "date": "2026-07-03T04:20:27.000Z",
       "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2514487038992212/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "📍 Track Your Fleet Directly from Odoo with Traccar Integration!\n\nManaging your fleet has never been easier.\n\nOur Fleet Traccar Tracking module seamlessly integrates Traccar with Odoo Fleet, allowing you to monitor your vehicles, routes, trips, and events—all from a single platform.\n\n✨ Key Features\n\n✅ Traccar Integration with Odoo Fleet\n✅ Live Vehicle Tracking\n✅ Trip & Route History\n✅ Vehicle Event Logs\n✅ Google Maps & OpenStreetMap Support\n✅ Device Summary & Travel Analytics\n✅ Automatic Vehicle Synchronization\n✅ Multi-Vehicle Tracking\n✅ Easy Configuration\n\nWhether you're managing logistics, delivery vehicles, taxis, or service fleets, this module gives you complete visibility into your fleet operations.\n\n🚀 Available for Odoo 19\n\n👉 https://apps.odoo.com/apps/modules/19.0/ais_fleet_traccar_tracking\n\n💬 Have questions or need customization? Contact us—we're happy to help!\n\n#Odoo #Odoo19 #FleetManagement #VehicleTracking #GPS #Traccar #Logistics #Transportation #ERP #Fleet #BusinessSoftware #odooapps"
     },
     {
       "date": "2026-07-03T03:05:57.000Z",
       "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2514439518996964/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "Estoy buscando 10 partners/implementadores/agencias de Odoo que quieran probar OMI antes de que salga a la calle en serio. (no, no es IA)\nOMI es una herramienta que armé para validar archivos de datos (CSV o Excel) contra las reglas reales de Odoo, del módulo, la versión y el país que corresponda, antes de importarlos. \n\nLa idea me nació de ver el mismo problema una y otra vez en las migraciones: subís el archivo, importás, y recién ahí te enterás que faltaba un campo obligatorio o que el CUIT tenía mal el formato. OMI te lo avisa antes, no después.\nEs determinístico, no usa inteligencia artificial. Las reglas se generan leyendo el código fuente real de Odoo, no son una lista armada a mano ni sacada de un foro.\nHoy valida los campos obligatorios de cada modelo según la versión de Odoo, el formato de email y teléfono, y el identificador fiscal correcto según el país: CUIT, RFC, RUT, CNPJ, NIT, RUC. Cubre 15 países de Latinoamérica, cada uno con su propio addon de localización. \nTambién chequea la coherencia contra los datos reales de Odoo, que una relación exista, que una opción de selección sea válida, no solo que el campo esté lleno. Detecta duplicados en columnas que deberían ser únicas, y reconoce los nombres de columna en español que trae un export típico (Correo, CUIT, Teléfono), así que no hace falta traducir nada antes de subir el archivo.\nCubre 8 módulos (Contactos, CRM, Ventas, Facturación, Inventario, Productos, Contabilidad, Compras) en 6 versiones de Odoo, de la v14 a la v19, incluidas las que ya no tienen soporte oficial, que es justo donde más se necesita migrar.\n\nLo que me falta ahora es algo (que no puedo simular yo solo): gente que migre datos de Odoo de verdad, con archivos de clientes reales, que use la herramienta y me diga dónde se cae.\nPor eso abro 10 lugares. La propuesta es simple: usás OMI como si tuvieras el plan de 149 dólares al mes (hasta 5 proyectos exportados), sin pagar nada. A cambio te pido feedback en serio, un par de preguntas que ya tengo armadas, y en privado, nada público.\n\nSi sos partner de Odoo y te gusta la idea de romper la herramienta (antes de que me la rompan otros clientes) escribime por DM."
     },
     {
       "date": "2026-07-03T05:43:39.000Z",
       "post_url": "https://www.facebook.com/groups/1441170482773436/permalink/4804576636432787/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "هنبدأ  أول برزنتيشن لتعلم الOdoo الرد بنعم لتضاف\nبالاضافه الي ملفات pdf المجانية"
     },
     {
       "date": "2026-07-03T02:07:30.000Z",
       "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2017337728896904/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "منفذين لاكثر من مشروع بنفس النشاط في مصر و السعوديه و الكويت و عمان\nOdoo gold partner \nExperience From 2015\nFree Demo \n Contact Us 01065031118"
     },
     {
       "date": "2026-07-02T21:05:23.000Z",
       "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2017172768913400/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "اهلا بيكم في جروب Odoo ERP ساهم بأسئلتك وفيديوهاتك وعروضك مع تمنياتي بالتوفيق محاسب قانوني عادل طيبي \n01017518091\nAydin Karavelioglu,\nMissaoui Alia,\nMyint M M Ko,\nSmart System ,\nNguyễn Phúc Đỉnh,\nMahmoud Yousry Helali,\nOkwong Philemon,\nTarek Mohsen,\nHasan Okasha,\nHussein Dm,\nMohamed Youssef,\nMustafa Suleiman,\nMehedi Hasan Bondhon,\nAhmed Shrief,\nتالية القرآن,\nMohammad Almowafy,\nMohamed Hatem El Sayed,\nعصام نادى"
     },
     {
       "date": "2026-07-02T09:26:43.000Z",
       "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2016344915662852/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "#هـــــــــــام 💪💪\n مجال تحليل البيانات ( 𝐃𝐚𝐭𝐚 𝐚𝐧𝐚𝐥𝐲𝐬𝐢𝐬)\nلو اخدت كل يوم نص ساعه من وقتك تتعلم فيها هتنقل نفسك في حته تانيه خالص بكارير وعلم جديد يضيف لمستقبلك\nمجال تحليل البيانات من أكتر  المجالات المطلوبه لعام 2030 ومستقبله حقيقي مهم جداا وبيتطور كل يوم ومرتباته كويسه جدااااا الرد بنعم لأضافتك"
     },
     {
       "date": "2026-07-02T09:26:43.000Z",
       "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2016128632351147/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "هنبدأ  أول برزنتيشن لتعلم الOdoo الرد بنعم لتضاف \nبالاضافه الي ملفات pdf المجانية"
     },
     {
       "date": "2026-07-02T09:26:43.000Z",
       "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2013025452661465/",
-      "author_url": NaN,
+      "author_url": null,
       "post_text": "منحة للطلبة والخارجين والجميع\nتدريب الodoo\n\nتدريب الic3\n\nتدريب الpmp\n\nدراسة الماجستير \n\nمنحة مجانية للتعليم والتأهيل المهني لفرص العمل \n\nتم وهبعتلك لينك الانضمام"
     }
   ],
