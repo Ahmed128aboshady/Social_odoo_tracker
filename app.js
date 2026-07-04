@@ -92,11 +92,9 @@ document.addEventListener("DOMContentLoaded", () => {
         select.className = `status-select status-${currentStatus}`;
         
         const options = [
-            { value: "new", label: "New" },
-            { value: "contacted", label: "Contacted" },
+            { value: "new", label: "Pending" },
             { value: "qualified", label: "Qualified" },
-            { value: "unqualified", label: "Unqualified" },
-            { value: "ignored", label: "Ignored" }
+            { value: "unqualified", label: "Unqualified" }
         ];
         
         options.forEach(opt => {
