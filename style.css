@@ -31,8 +31,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
     -webkit-font-smoothing: antialiased;
+}
+
+body, input, select, button, textarea {
+    font-family: 'Outfit', sans-serif;
 }
 
 body {
@@ -534,13 +537,22 @@ body {
 
 /* Mobile Responsive Design (max-width: 768px) */
 @media (max-width: 768px) {
+    body {
+        overflow-y: auto;
+        height: auto;
+    }
+
     .app-container {
-        flex-direction: column;
-        height: 100vh;
-        overflow: hidden;
+        display: block;
+        height: auto;
+        overflow: visible;
     }
     
     .sidebar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
         width: 100%;
         height: 70px;
         flex-direction: row;
@@ -549,9 +561,9 @@ body {
         border-top: 1px solid var(--border-color);
         justify-content: space-around;
         align-items: center;
-        order: 2; /* Sidebar goes to bottom like native app bar */
         background-color: var(--bg-sidebar);
-        box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+        z-index: 1000;
     }
     
     .logo-area, .sidebar-footer {
@@ -582,10 +594,9 @@ body {
     }
     
     .main-content {
-        order: 1;
-        height: calc(100vh - 70px);
-        padding: 20px 16px;
-        overflow-y: auto;
+        padding: 20px 16px 100px 16px; /* Bottom padding to clear fixed nav */
+        height: auto;
+        overflow-y: visible;
     }
     
     .main-header {
