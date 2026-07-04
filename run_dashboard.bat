@@ -9,4 +9,4 @@ echo 2. Running python server on http://localhost:8085
 echo.
 echo Press Ctrl+C in this window to stop the server.
 echo.
-python -m http.server 8085
+python server.py

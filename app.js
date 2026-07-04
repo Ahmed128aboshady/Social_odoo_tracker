@@ -38,6 +38,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const tableEmptyState = document.getElementById("table-empty-state");
     const refreshBtn = document.getElementById("refresh-btn");
 
+    // Settings elements
+    const tabSettings = document.getElementById("tab-settings");
+    const settingsFbGroups = document.getElementById("settings-fb-groups");
+    const settingsLiQueries = document.getElementById("settings-li-queries");
+    const settingsLiPostQueries = document.getElementById("settings-li-post-queries");
+    const saveSettingsBtn = document.getElementById("save-settings-btn");
+    const runScraperBtn = document.getElementById("run-scraper-btn");
+    const loadingOverlay = document.getElementById("loading-overlay");
+
     // Load data from leads.json
     async function loadData() {
         try {
@@ -432,12 +441,21 @@ document.addEventListener("DOMContentLoaded", () => {
         if (tabId === "overview") {
             tabOverview.classList.add("active");
             tabLeadsView.classList.remove("active");
+            if (tabSettings) tabSettings.classList.remove("active");
             pageTitle.textContent = "Dashboard Overview";
             pageSubtitle.textContent = "Real-time leads monitoring for Odoo ERP clients";
             renderRecentLeads();
+        } else if (tabId === "settings") {
+            tabOverview.classList.remove("active");
+            tabLeadsView.classList.remove("active");
+            if (tabSettings) tabSettings.classList.add("active");
+            pageTitle.textContent = "Scraper Settings";
+            pageSubtitle.textContent = "Manage Facebook groups and LinkedIn search parameters";
+            loadSettings();
         } else {
             tabOverview.classList.remove("active");
             tabLeadsView.classList.add("active");
+            if (tabSettings) tabSettings.classList.remove("active");
             
             if (tabId === "facebook") {
                 pageTitle.textContent = "Facebook Group Leads";
@@ -457,6 +475,82 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             
             renderLeadsTable();
+        }
+    }
+
+    // Load config from backend API
+    async function loadSettings() {
+        try {
+            const response = await fetch("/api/config");
+            if (!response.ok) throw new Error("Failed to load settings");
+            const config = await response.json();
+            
+            settingsFbGroups.value = (config.facebook_groups || []).join("\n");
+            settingsLiQueries.value = (config.linkedin_queries || []).join(", ");
+            settingsLiPostQueries.value = (config.linkedin_post_queries || []).join(", ");
+        } catch (err) {
+            console.error("Error loading config:", err);
+            // Silent ignore or simple notice on local console
+        }
+    }
+
+    // Save config via backend API
+    async function saveSettings() {
+        const payload = {
+            facebook_groups: settingsFbGroups.value.split("\n").map(line => line.trim()).filter(line => line.length > 0),
+            linkedin_queries: settingsLiQueries.value.split(",").map(q => q.trim()).filter(q => q.length > 0),
+            linkedin_post_queries: settingsLiPostQueries.value.split(",").map(q => q.trim()).filter(q => q.length > 0)
+        };
+
+        try {
+            saveSettingsBtn.disabled = true;
+            saveSettingsBtn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Saving...`;
+            
+            const response = await fetch("/api/config", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(payload)
+            });
+            
+            if (!response.ok) throw new Error("Failed to save settings");
+            
+            alert("Settings saved successfully!");
+        } catch (err) {
+            console.error("Error saving config:", err);
+            alert("Could not save settings. Make sure you are running server.py locally!");
+        } finally {
+            saveSettingsBtn.disabled = false;
+            saveSettingsBtn.innerHTML = `<i class="fa-solid fa-floppy-disk"></i> Save Settings`;
+        }
+    }
+
+    // Run scraper and block screen with loading overlay
+    async function runScraper() {
+        const confirmRun = confirm("Are you sure you want to run the Odoo Leads Scraper now? This will execute the background Python script and take about 1-2 minutes to pull new data from Facebook and LinkedIn.");
+        if (!confirmRun) return;
+
+        try {
+            loadingOverlay.style.display = "flex";
+            
+            const response = await fetch("/api/run-scraper", {
+                method: "POST"
+            });
+            
+            if (!response.ok) throw new Error("Scraper execution failed");
+            const result = await response.json();
+            
+            if (result.status === "success") {
+                alert("Scraper executed successfully! Reloading new leads data now.");
+                await loadData();
+                switchTab("overview");
+            } else {
+                alert("Scraper run finished but encountered errors: " + (result.error || result.message));
+            }
+        } catch (err) {
+            console.error("Error running scraper:", err);
+            alert("An error occurred while running the scraper. Make sure server.py is running locally and Apify token is valid.");
+        } finally {
+            loadingOverlay.style.display = "none";
         }
     }
 
@@ -486,6 +580,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     refreshBtn.addEventListener("click", loadData);
+    saveSettingsBtn.addEventListener("click", saveSettings);
+    runScraperBtn.addEventListener("click", runScraper);
 
     // Initial load
     loadData();
