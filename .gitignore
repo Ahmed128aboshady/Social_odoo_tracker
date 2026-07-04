@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary Excel files & lock files
+*_temp_*.xlsx
+~$*.xlsx
+
+# Secrets / local configuration
+config.json
+
+# Local environment / IDE
+.vscode/
+.idea/
+.DS_Store

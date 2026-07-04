@@ -1,0 +1,75 @@
+{
+  "apify_token": "YOUR_APIFY_API_TOKEN",
+  "auto_git_push": false,
+  "facebook": {
+    "enabled": true,
+    "actor_id": "apify/facebook-groups-scraper",
+    "groups": [
+      "https://www.facebook.com/groups/108562316441131/",
+      "https://www.facebook.com/groups/1441170482773436/",
+      "https://www.facebook.com/groups/odooarabcommunity/",
+      "https://www.facebook.com/groups/odoodevelopers/"
+    ],
+    "keywords": [
+      "odoo",
+      "erp",
+      "أودو",
+      "برنامج حسابات",
+      "مطور",
+      "وظيفة",
+      "مطلوب",
+      "developer",
+      "consultant",
+      "implementer"
+    ],
+    "limit_per_group": 10
+  },
+  "linkedin_jobs": {
+    "enabled": true,
+    "actor_id": "curious_coder/linkedin-jobs-scraper",
+    "queries": [
+      "odoo",
+      "erp implementation"
+    ],
+    "locations": [
+      "Egypt",
+      "Saudi Arabia",
+      "United Arab Emirates"
+    ],
+    "keywords": [
+      "odoo",
+      "erp",
+      "أودو",
+      "برنامج حسابات",
+      "مطور",
+      "وظيفة",
+      "مطلوب",
+      "developer",
+      "consultant",
+      "implementer"
+    ],
+    "limit": 10
+  },
+  "linkedin_posts": {
+    "enabled": true,
+    "actor_id": "apimaestro/linkedin-posts-search-scraper-no-cookies",
+    "queries": [
+      "odoo erp",
+      "implement odoo",
+      "مطلوب اودو"
+    ],
+    "keywords": [
+      "odoo",
+      "erp",
+      "أودو",
+      "برنامج حسابات",
+      "مطور",
+      "وظيفة",
+      "مطلوب",
+      "developer",
+      "consultant",
+      "implementer"
+    ],
+    "limit": 10
+  }
+}

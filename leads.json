@@ -1,0 +1,345 @@
+{
+  "facebook": [
+    {
+      "date": "2026-07-04T10:00:50.000Z",
+      "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2018508195446524/",
+      "author_url": NaN,
+      "post_text": "اهلا بيكم في جروب Odoo ERP ساهم بأسئلتك وفيديوهاتك وعروضك مع تمنياتي بالتوفيق محاسب قانوني عادل طيبي \n01017518091\nAdham Elmalke,\nMenna Salama,\nMohamed Ashraf,\nBashar Kh,\nMohamed Osama,\nElsayed Ibrahim,\nWeerut Pan,\nAhoud S. Youssef,\nEmad Zayan,\nTzunə,\nالباز أفندي سمسار وقباني,\nميادة رمضان,\nAhmed Tamer,\nAd Support Pro"
+    },
+    {
+      "date": "2026-07-03T09:37:29.000Z",
+      "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2017610682202942/",
+      "author_url": NaN,
+      "post_text": "اهلا بيكم في جروب Odoo ERP ساهم بأسئلتك وفيديوهاتك وعروضك مع تمنياتي بالتوفيق محاسب قانوني عادل طيبي \n01017518091\nالبداية سر النجاح ,\nMariem Tawfek,\nYoussef Anous Elseginy,\nNour Magdi,\nAhmed Profo,\nOmar Alsayed,\nAdan Garnica Carrillo,\nNabil Eldeeb,\nSK Technology - Odoo ERP Services"
+    },
+    {
+      "date": "2026-07-04T04:23:25.000Z",
+      "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2515440338896882/",
+      "author_url": NaN,
+      "post_text": "كيفية استخدام Price Lists في Odoo لإدارة أسعار المنتجات بطريقة احترافية.\n\n✅ ما هي Price Lists؟\n\n✅ إنشاء قائمة أسعار جديدة.\n\n✅ تحديد أسعار مختلفة حسب العميل أو المجموعة.\n\n✅ تطبيق خصومات وعروض تلقائية.\n\n✅ تحديد فترة زمنية لقائمة الأسعار.\n\n✅ التسعير حسب الكمية.\n\n✅ أفضل الممارسات لتجنب أخطاء التسعير.\n\nإذا كنت تعمل على Odoo في المبيعات أو الحسابات أو إدارة الأعمال، فهذا الفيديو سيساعدك على إعداد نظام تسعير مرن واحترافي."
+    },
+    {
+      "date": "2026-07-03T20:31:50.000Z",
+      "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2515165228924393/",
+      "author_url": NaN,
+      "post_text": "هنبدأ  أول برزنتيشن لتعلم الOdoo الرد بنعم لتضاف \nبالاضافه الي ملفات pdf المجانية"
+    },
+    {
+      "date": "2026-07-03T15:57:41.000Z",
+      "post_url": "https://www.facebook.com/groups/1441170482773436/permalink/4805191446371306/",
+      "author_url": NaN,
+      "post_text": "هنبدأ  أول برزنتيشن لتعلم الOdoo الرد بنعم لتضاف \nبالاضافه الي ملفات pdf المجانية"
+    },
+    {
+      "date": "2026-07-03T14:39:53.000Z",
+      "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2514913042282945/",
+      "author_url": NaN,
+      "post_text": "#تريكات_Odoo_Advanced 😉 \nموضوع النهاردة: أتمتة حساب إجمالي عدد المنتجات في أوامر البيع، الشراء، والمخازن 📊 الخيار الذكي البديل للآلة الحاسبة!\nواحدة من أكتر الحاجات المزعجة للمحاسبين وأمناء المخازن لما يستلموا أو يبيعوا أوردر فيه 20 أو 30 صنف، هي إنهم يضطروا يجمعوا كميات السطور يدوياً عشان يتأكدوا إن إجمالي عدد القطع (Total Items/Qty) مظبوط مع الشحنة الفعلية.\nفي تريكة النهاردة، هوريك إزاي بـ Computed Field بسيط وسلس، تخلي أودو يحسب لك إجمالي عدد القطع جوه أمر البيع (Sales Order)، أمر الشراء (Purchase Order)، أو حتى إذن التحويل المخزني (Stock Transfer) تلقائياً ولحظياً!\n✅ الفكرة والحل البرمجي: إضافة حقل مخصص (Custom Field) يعتمد على كود بايثون بسيط (Depends) بيلف على بنود الأوردر (Order Lines) ويجمع كل الكميات المكتوبة عشان يظهر لك الإجمالي في أسفل الصفحة جنب الضرائب والإجمالي المالي.\n✅ النتائج اللي هتشوفها في الفيديو: \n1️⃣ سرعة الرقابة والجرد: أمين المخزن هيطابق إجمالي القطع في الكرتونة مع الرقم الظاهر على السيستم في ثانية واحدة. \n2️⃣ تطبيق مرن: الشرح هيغطّي إزاي تطبق التريكة دي في 3 موديولات أساسية (المبيعات، المشتريات، والمخازن). \n3️⃣ تحديث لحظي: بمجرد تعديل كمية أي صنف في السطور، إجمالي القطع بيتحدث تلقائياً بدون حاجة لحفظ الأوردر أولاً.\n✅ الهدف النهائي: نلغي تماماً احتمالية الخطأ البشري في تجميع الكميات، ونوفر وقت فريق العمل في العمليات اليومية المتكررة. 🎯\nالسيستم الشاطر هو اللي بيوفر وقت موظفينه بلمحة عين. 🎯\nشاهد الفيديو والكود المستخدم من هنا: [https://lnkd.in/datCvdjz] 🔗\nhashtag#Odoo_Development hashtag#Python hashtag#Computed_Fields hashtag#Odoo19 hashtag#Inventory_Management hashtag#Sales_Order hashtag#Purchase_Order hashtag#Advanced_Odoo hashtag#Automation hashtag#Egypt hashtag#Ali_Mohamed hashtag#odoo"
+    },
+    {
+      "date": "2026-07-03T12:04:03.000Z",
+      "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2514792522294997/",
+      "author_url": NaN,
+      "post_text": "فرصه لكل المحاسبين \n تبدأ محاضرات ال Odoo \nالخميس القادم اول محاضرة مجانية من يريد الانضمام يترك تم"
+    },
+    {
+      "date": "2026-07-03T06:54:14.000Z",
+      "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2514581058982810/",
+      "author_url": NaN,
+      "post_text": "AI Is Powerful. Experience Makes It Valuable.\nRecently, there has been significant discussion around reports that Ford brought back experienced engineers after realizing that AI and automation alone were not delivering the expected quality outcomes. The lesson here is not that AI failed — the lesson is that AI without experience has limitations.\n\nThis creates an important message for all of us in the technology and business world:\n\nAI is a tool. A very powerful one.\n\nIt can:\n\n✅ Increase speed\n\n✅ Automate repetitive tasks\n\n✅ Process large amounts of information\n\n✅ Improve productivity\n\nBut practical judgment, business understanding, real-world problem-solving, and years of hands-on experience cannot simply be replaced by algorithms.\n\nThe Ford example highlights a reality many organizations are beginning to understand: machines can assist, but experienced people provide context, direction, and decision-making.\n\nAs ERP professionals, we see the same reality across industries. Technology alone is not enough. Understanding business processes, operational challenges, workflows, and industry-specific requirements is what creates successful digital transformation.\n\nWith the right combination of experience + AI, we can deliver:\n\n✅ Faster requirement analysis\n\n✅ Early solution design and validation\n\n✅ More accurate and business-focused ERP implementation\n\n✅ Smarter automation strategies\n\n✅ Faster project delivery with improved quality\n\nOur experience helps us understand the business. AI helps us accelerate the process.\n\nThis combination allows us to provide early, scalable, and future-ready ERP solutions for any industry while ensuring that technology solves real business problems, not just technical ones.\n\nWe should stop thinking about \"AI vs Humans\" and start focusing on \"AI + Humans.\"\n\nBecause technology can accelerate the process, but experience determines the direction.\n\nAI may increase the speed of work. Experience ensures the work creates value.\n\n#AI #ERP #Odoo #DigitalTransformation #BusinessSolutions #Innovation #FutureOfWork #Technology #ExperienceMatters #BusinessGrowth"
+    },
+    {
+      "date": "2026-07-03T04:20:27.000Z",
+      "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2514487038992212/",
+      "author_url": NaN,
+      "post_text": "📍 Track Your Fleet Directly from Odoo with Traccar Integration!\n\nManaging your fleet has never been easier.\n\nOur Fleet Traccar Tracking module seamlessly integrates Traccar with Odoo Fleet, allowing you to monitor your vehicles, routes, trips, and events—all from a single platform.\n\n✨ Key Features\n\n✅ Traccar Integration with Odoo Fleet\n✅ Live Vehicle Tracking\n✅ Trip & Route History\n✅ Vehicle Event Logs\n✅ Google Maps & OpenStreetMap Support\n✅ Device Summary & Travel Analytics\n✅ Automatic Vehicle Synchronization\n✅ Multi-Vehicle Tracking\n✅ Easy Configuration\n\nWhether you're managing logistics, delivery vehicles, taxis, or service fleets, this module gives you complete visibility into your fleet operations.\n\n🚀 Available for Odoo 19\n\n👉 https://apps.odoo.com/apps/modules/19.0/ais_fleet_traccar_tracking\n\n💬 Have questions or need customization? Contact us—we're happy to help!\n\n#Odoo #Odoo19 #FleetManagement #VehicleTracking #GPS #Traccar #Logistics #Transportation #ERP #Fleet #BusinessSoftware #odooapps"
+    },
+    {
+      "date": "2026-07-03T03:05:57.000Z",
+      "post_url": "https://www.facebook.com/groups/odoodevelopers/permalink/2514439518996964/",
+      "author_url": NaN,
+      "post_text": "Estoy buscando 10 partners/implementadores/agencias de Odoo que quieran probar OMI antes de que salga a la calle en serio. (no, no es IA)\nOMI es una herramienta que armé para validar archivos de datos (CSV o Excel) contra las reglas reales de Odoo, del módulo, la versión y el país que corresponda, antes de importarlos. \n\nLa idea me nació de ver el mismo problema una y otra vez en las migraciones: subís el archivo, importás, y recién ahí te enterás que faltaba un campo obligatorio o que el CUIT tenía mal el formato. OMI te lo avisa antes, no después.\nEs determinístico, no usa inteligencia artificial. Las reglas se generan leyendo el código fuente real de Odoo, no son una lista armada a mano ni sacada de un foro.\nHoy valida los campos obligatorios de cada modelo según la versión de Odoo, el formato de email y teléfono, y el identificador fiscal correcto según el país: CUIT, RFC, RUT, CNPJ, NIT, RUC. Cubre 15 países de Latinoamérica, cada uno con su propio addon de localización. \nTambién chequea la coherencia contra los datos reales de Odoo, que una relación exista, que una opción de selección sea válida, no solo que el campo esté lleno. Detecta duplicados en columnas que deberían ser únicas, y reconoce los nombres de columna en español que trae un export típico (Correo, CUIT, Teléfono), así que no hace falta traducir nada antes de subir el archivo.\nCubre 8 módulos (Contactos, CRM, Ventas, Facturación, Inventario, Productos, Contabilidad, Compras) en 6 versiones de Odoo, de la v14 a la v19, incluidas las que ya no tienen soporte oficial, que es justo donde más se necesita migrar.\n\nLo que me falta ahora es algo (que no puedo simular yo solo): gente que migre datos de Odoo de verdad, con archivos de clientes reales, que use la herramienta y me diga dónde se cae.\nPor eso abro 10 lugares. La propuesta es simple: usás OMI como si tuvieras el plan de 149 dólares al mes (hasta 5 proyectos exportados), sin pagar nada. A cambio te pido feedback en serio, un par de preguntas que ya tengo armadas, y en privado, nada público.\n\nSi sos partner de Odoo y te gusta la idea de romper la herramienta (antes de que me la rompan otros clientes) escribime por DM."
+    },
+    {
+      "date": "2026-07-03T05:43:39.000Z",
+      "post_url": "https://www.facebook.com/groups/1441170482773436/permalink/4804576636432787/",
+      "author_url": NaN,
+      "post_text": "هنبدأ  أول برزنتيشن لتعلم الOdoo الرد بنعم لتضاف\nبالاضافه الي ملفات pdf المجانية"
+    },
+    {
+      "date": "2026-07-03T02:07:30.000Z",
+      "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2017337728896904/",
+      "author_url": NaN,
+      "post_text": "منفذين لاكثر من مشروع بنفس النشاط في مصر و السعوديه و الكويت و عمان\nOdoo gold partner \nExperience From 2015\nFree Demo \n Contact Us 01065031118"
+    },
+    {
+      "date": "2026-07-02T21:05:23.000Z",
+      "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2017172768913400/",
+      "author_url": NaN,
+      "post_text": "اهلا بيكم في جروب Odoo ERP ساهم بأسئلتك وفيديوهاتك وعروضك مع تمنياتي بالتوفيق محاسب قانوني عادل طيبي \n01017518091\nAydin Karavelioglu,\nMissaoui Alia,\nMyint M M Ko,\nSmart System ,\nNguyễn Phúc Đỉnh,\nMahmoud Yousry Helali,\nOkwong Philemon,\nTarek Mohsen,\nHasan Okasha,\nHussein Dm,\nMohamed Youssef,\nMustafa Suleiman,\nMehedi Hasan Bondhon,\nAhmed Shrief,\nتالية القرآن,\nMohammad Almowafy,\nMohamed Hatem El Sayed,\nعصام نادى"
+    },
+    {
+      "date": "2026-07-02T09:26:43.000Z",
+      "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2016344915662852/",
+      "author_url": NaN,
+      "post_text": "#هـــــــــــام 💪💪\n مجال تحليل البيانات ( 𝐃𝐚𝐭𝐚 𝐚𝐧𝐚𝐥𝐲𝐬𝐢𝐬)\nلو اخدت كل يوم نص ساعه من وقتك تتعلم فيها هتنقل نفسك في حته تانيه خالص بكارير وعلم جديد يضيف لمستقبلك\nمجال تحليل البيانات من أكتر  المجالات المطلوبه لعام 2030 ومستقبله حقيقي مهم جداا وبيتطور كل يوم ومرتباته كويسه جدااااا الرد بنعم لأضافتك"
+    },
+    {
+      "date": "2026-07-02T09:26:43.000Z",
+      "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2016128632351147/",
+      "author_url": NaN,
+      "post_text": "هنبدأ  أول برزنتيشن لتعلم الOdoo الرد بنعم لتضاف \nبالاضافه الي ملفات pdf المجانية"
+    },
+    {
+      "date": "2026-07-02T09:26:43.000Z",
+      "post_url": "https://www.facebook.com/groups/108562316441131/permalink/2013025452661465/",
+      "author_url": NaN,
+      "post_text": "منحة للطلبة والخارجين والجميع\nتدريب الodoo\n\nتدريب الic3\n\nتدريب الpmp\n\nدراسة الماجستير \n\nمنحة مجانية للتعليم والتأهيل المهني لفرص العمل \n\nتم وهبعتلك لينك الانضمام"
+    }
+  ],
+  "linkedin_jobs": [
+    {
+      "date": "2026-06-17",
+      "job_title": "Business Analyst",
+      "company": "Zoho",
+      "location": "Jeddah, Makkah, Saudi Arabia",
+      "job_url": "https://sa.linkedin.com/jobs/view/business-analyst-at-zoho-4429927195?position=6&pageNum=0&refId=MEw0MpzABoogE%2F2r%2FzbuyQ%3D%3D&trackingId=99XUmRWlk42K%2FiE19Vr9rg%3D%3D",
+      "description": "About the job\n\n\nZoho is one of the world's most prolific software companies. With 55+ applications in nearly every major business category, including sales, marketing, customer service, accounting and back office operations, and an array of productivity and collaboration tools built from the ground..."
+    },
+    {
+      "date": "2026-06-08",
+      "job_title": "Web Developer",
+      "company": "معهد الصناعات الغذائية-Food Industries Polytechnic",
+      "location": "Riyadh, Riyadh, Saudi Arabia",
+      "job_url": "https://sa.linkedin.com/jobs/view/web-developer-at-%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-food-industries-polytechnic-4270032619?position=5&pageNum=0&refId=MEw0MpzABoogE%2F2r%2FzbuyQ%3D%3D&trackingId=kHRTvX%2BZeKzKycUEAxrNHQ%3D%3D",
+      "description": "We are seeking a talented and motivated Web Developer to join our dynamic team in Al Kharj City, Riyadh Province. The ideal candidate will possess a strong understanding of web development technologies and a passion for creating engaging, user-friendly websites.\n\nJob Description\n\nWe are seeking a ve..."
+    },
+    {
+      "date": "2026-06-27",
+      "job_title": "Videographer Video Editor - Dubai",
+      "company": "TALENTMATE",
+      "location": "Dubai, Dubai, United Arab Emirates",
+      "job_url": "https://ae.linkedin.com/jobs/view/videographer-video-editor-dubai-at-talentmate-4434261388?position=31&pageNum=0&refId=RmmjHLAnd%2FT8wRmPp8GKJg%3D%3D&trackingId=Z19OKVtEpEZ2UN2kG3de6w%3D%3D",
+      "description": "Job Description\n\nCompany Overview\n\nAt Odoo, we are a dynamic and innovative software company that specializes in a range of business applications. Our mission is to streamline business processes through user-friendly and efficient software solutions. We are currently expanding our creative team and..."
+    },
+    {
+      "date": "2025-06-18",
+      "job_title": "Sales Executive - Turkish Speaker",
+      "company": "VerifiedJobs.ae",
+      "location": "Dubai, Dubai, United Arab Emirates",
+      "job_url": "https://ae.linkedin.com/jobs/view/sales-executive-turkish-speaker-at-verifiedjobs-ae-4253102080?position=30&pageNum=0&refId=RmmjHLAnd%2FT8wRmPp8GKJg%3D%3D&trackingId=fWn%2FhNjss1SH3CRFxKHBKw%3D%3D",
+      "description": "Job Description\n\nDo you love to talk to people, share ideas, and close deals? Are you an outgoing, adventurous, and goal-driven person? Then we want you to join our team at Odoo Dubai!\n\nAt Odoo, we are proud to be a leading provider of Odoo business management software solutions. Our mission is to e..."
+    },
+    {
+      "date": "2026-06-23",
+      "job_title": "AI Engineer (Vibe Coder)",
+      "company": "ALBA CORP",
+      "location": "Dubai, Dubai, United Arab Emirates",
+      "job_url": "https://ae.linkedin.com/jobs/view/ai-engineer-vibe-coder-at-alba-corp-4432257712?position=32&pageNum=0&refId=RmmjHLAnd%2FT8wRmPp8GKJg%3D%3D&trackingId=DUtoRgZHEgWlE75Dja1iEg%3D%3D",
+      "description": "We are looking for an AI Engineer to design, build, and own production-grade systems powered by modern AI development tools, automation platforms, databases, and intelligent agents.\n\nThis role is suited to an experienced, hands-on developer who thinks in databases, APIs, workflows, and scalable syst..."
+    },
+    {
+      "date": "2026-05-06",
+      "job_title": "PROPERTY LEASING & MANAGEMENT",
+      "company": "RAK Real Estate LLC OPC",
+      "location": "United Arab Emirates",
+      "job_url": "https://ae.linkedin.com/jobs/view/property-leasing-management-at-rak-real-estate-llc-opc-4411476660?position=29&pageNum=0&refId=RmmjHLAnd%2FT8wRmPp8GKJg%3D%3D&trackingId=JNtGQjJV1J123%2BKMIDUmXQ%3D%3D",
+      "description": "The leasing function covers the full cycle from property marketing through to tenant occupancy. Core responsibilities include:\n\nMarketing &amp; Inquiry Management\n\nCoordinate with marketing teams to ensure property listings are accurate, attractive, and consistently up to date across all platforms...."
+    },
+    {
+      "date": "2025-10-30",
+      "job_title": "Sales Coordinator",
+      "company": "Element MEA",
+      "location": "Sharjah, Sharjah Emirate, United Arab Emirates",
+      "job_url": "https://ae.linkedin.com/jobs/view/sales-coordinator-at-element-mea-4338840473?position=27&pageNum=0&refId=RmmjHLAnd%2FT8wRmPp8GKJg%3D%3D&trackingId=UHdcjsA%2F%2FK1oJ0ySx7U%2F8w%3D%3D",
+      "description": "As a Sales Coordinator, your role will involve managing sales operations, facilitating effective communication between clients and internal teams, and supporting the company's overall growth. The ideal candidate should possess excellent organizational abilities, a proactive approach, and a strong co..."
+    },
+    {
+      "date": "2026-07-01",
+      "job_title": "Senior Accountant – Cosmetics Manufacturing",
+      "company": "Ard Aljamal Cosmetics Manufacturing LLC",
+      "location": "Dubai, United Arab Emirates",
+      "job_url": "https://ae.linkedin.com/jobs/view/senior-accountant-%E2%80%93-cosmetics-manufacturing-at-ard-aljamal-cosmetics-manufacturing-llc-4431980642?position=26&pageNum=0&refId=RmmjHLAnd%2FT8wRmPp8GKJg%3D%3D&trackingId=ZtSjieunkU1Ojt5TPSwMag%3D%3D",
+      "description": "We’re Hiring: Senior Accounts Executive / Senior Accountant – Cosmetics Manufacturing\nLocation: DIP 2, Dubai, UAE\nCompany: Ard Al Jamal Cosmetics Manufacturing LLC\nExperience: 3–6 years\nSalary: 4000 - 7000\nIndustry: Cosmetics Manufacturing / FMCG Manufacturing\nArd Al Jamal Cosmetics Manufacturing L..."
+    },
+    {
+      "date": "2026-01-25",
+      "job_title": "Field Sales Representative in Dubai",
+      "company": "Resemble Systems ريزيمبل سيستمز",
+      "location": "Dubai, Dubai, United Arab Emirates",
+      "job_url": "https://ae.linkedin.com/jobs/view/field-sales-representative-in-dubai-at-resemble-systems-%D8%B1%D9%8A%D8%B2%D9%8A%D9%85%D8%A8%D9%84-%D8%B3%D9%8A%D8%B3%D8%AA%D9%85%D8%B2-4355912426?position=25&pageNum=0&refId=RmmjHLAnd%2FT8wRmPp8GKJg%3D%3D&trackingId=XbYFl6hNU5uy4i6ejKYmLQ%3D%3D",
+      "description": "We are looking for a competitive Field Sales Representative to develop sales strategies and attract new clients. The successful salesperson will source new sales opportunities and close sales to achieve quotas. The successful candidate will play a key role in increasing income and revenue by managin..."
+    },
+    {
+      "date": "2026-06-30",
+      "job_title": "Cost Controller",
+      "company": "M I R A L.L.C",
+      "location": "Dubai, Dubai, United Arab Emirates",
+      "job_url": "https://ae.linkedin.com/jobs/view/cost-controller-at-m-i-r-a-l-l-c-4435131381?position=24&pageNum=0&refId=RmmjHLAnd%2FT8wRmPp8GKJg%3D%3D&trackingId=HJ8qQSE3Fa3%2FrahPpI%2BfeA%3D%3D",
+      "description": "We are seeking a highly analytical and detail-oriented Cost Controller to join our growing team in Dubai. The ideal candidate will have strong experience in cost control, budgeting, financial monitoring, and project cost management within the real estate development and construction industry.\n\nThis..."
+    }
+  ],
+  "linkedin_posts": [
+    {
+      "date": "2026-07-04 12:21:13",
+      "author_name": "Ahmed Alkayyal",
+      "author_url": "https://www.linkedin.com/in/ahmed-alkayyal?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADMpw4UBxiPJOC_MMfZ_1CRalw_B7n2yPWA",
+      "post_url": "https://www.linkedin.com/posts/ahmed-alkayyal_odoo-erp-datasilos-activity-7479117107729817601-URV7?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "77.4% of organizations that finished an ERP project this year actually achieved the \"removing silos\" benefit they expected — up from 55.2% the year before, according to Panorama Consulting Group's 2026 ERP Report.\n\nThat gap says something ROI numbers don't: unifying data across finance, inventory, and sales takes time to show up. It rarely appears on go-live day — it builds as departments stop keeping separate versions of the same record.\n\nOdoo solves this from day one with a single database instead of disconnected systems duplicating entries. When every department starts from one source of truth, a company doesn't need a year to see the benefit of breaking down silos.\n\nDoes your team work from the same data, or does each department keep its own version?\n\nSource: Panorama Consulting Group — 2026 ERP Report\n\n#Odoo #ERP #DataSilos #DigitalTransformation #CloudERP #BusinessIntelligence\n\n77.4% من الشركات التي أنهت مشروع ERP خلال العام حققت فعلاً فائدة \"كسر الجزر المعزولة\" التي كانت تتوقعها، ارتفاعاً من 55.2% في العام السابق — وفق تقرير Panorama Consulting لعام 2026.\n\nهذا الفارق يكشف ما لا تُظهره أرقام العائد على الاستثمار: توحيد البيانات بين المالية والمخزون والمبيعات يحتاج وقتاً ليظهر أثره. لا يتحقق يوم الانطلاق الفعلي، بل يتراكم حين تتوقف الأقسام عن الاحتفاظ بنسخ منفصلة من نفس السجل.\n\nOdoo يحل هذه المشكلة من اليوم الأول عبر قاعدة بيانات واحدة بدل أنظمة متفرقة تكرر إدخال نفس المعلومة. حين تنطلق كل الأقسام من مصدر واحد للحقيقة، لا تحتاج الشركة سنة كاملة لترى فائدة كسر الجزر المعزولة.\n\nهل الأقسام في شركتك تعمل من نفس البيانات، أم يحتفظ كل قسم بنسخته الخاصة؟\n\nالمصدر: Panorama Consulting Group — تقرير ERP لعام 2026\n\n#Odoo #ERP #تخطيط_موارد_المؤسسات #DataSilos #التحول_الرقمي #CloudERP"
+    },
+    {
+      "date": "2026-07-04 12:13:00",
+      "author_name": "Shaista Saeed",
+      "author_url": "https://www.linkedin.com/in/shaista-saeed-31819b389?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAF-aAQQB-PShZxUg_1jPvJyIGXbJd54oPgY",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:groupPost:8986934-7479115038587510784?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "🎓 Welcome to the Institute of Corporate & Taxation (ICT)!\n\nBuild your career with industry-focused, practical training designed by experts.\n\n📚 Our Professional Courses: ✅ Certificate Tax Advisor (CTA)\n✅ Advance Taxation & Litigation (ATL)\n✅ Sales Tax Mastery\n✅ International Taxation (USA, UK, UAE, Saudi Arabia & Canada)\n✅ Company Secretary\n✅ CHRP\n✅ AI CAAAS Course\n✅ Master of Import & Export\n✅ Stock Market Trading\n✅ Meta Master\n✅ Medical Billing\n✅ Truck Dispatching\n✅ AI Finance\n✅ Audit Simulation\n✅ Australia & UK Accounting with Xero Masterclass\n✅ ODOO ERP\n\n🎥 Learning Options: ✔ On-Campus Classes\n✔ Live Online Sessions\n✔ Recorded Lectures\n\n📍 Campuses: Karachi | Lahore | Islamabad\n\n📞 Contact Us:\n03370102015\n03370102014"
+    },
+    {
+      "date": "2026-07-04 12:08:47",
+      "author_name": "Arsalan .",
+      "author_url": "https://www.linkedin.com/in/arsalan-6016b255?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAur4-EByNXWXcWYqZYhq9fQlC_KkD2-lH8",
+      "post_url": "https://www.linkedin.com/posts/activity-7479113977462054912-0ZxF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "The biggest bottleneck in business isn't people—it's manual processes.\nWhen operations rely on spreadsheets, approvals, and disconnected systems, growth slows down.\nWith Odoo ERP, bring your Sales, Inventory, Manufacturing, Finance, CRM, and HR onto one intelligent platform—so your team spends less time managing processes and more time growing the business.\nOne Platform. Total Business Control.\n📞 0302 2470640\n 📧 info@coran-tech.com\n#BusinessTransformation #SmartManufacturing #ProcessOptimization #OperationalExcellence #EnterpriseSoftware #BusinessSystems #Industry40"
+    },
+    {
+      "date": "2026-07-04 12:09:23",
+      "author_name": "Sagar Chaudhari",
+      "author_url": "https://www.linkedin.com/in/sagar-chaudhari-linkdin?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAD1jE2sBh8LKjq0s8j2orLlAoI9dl7Cb_pc",
+      "post_url": "https://www.linkedin.com/posts/sagar-chaudhari-linkdin_odoo-erp-digitaltransformation-activity-7479114129463578624-22tY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "From Shop Floor to Boardroom , We Build Odoo That Fits Your Business\nEvery industry runs differently. That's why \"one-size-fits-all\" ERP never really fits anyone.\nOver the past few months, we've been mapping out Odoo opportunities across a wide spectrum of businesses and the pattern is clear: whether you're in manufacturing, chemicals, automotive components, water treatment, industrial cleaning, or renewable energy, the underlying challenges are surprisingly similar:\n✅ Disconnected systems for Sales, Inventory, and Accounting \n✅ No real-time visibility into production or field operations \n✅ Manual quality checks and maintenance tracking \n✅ Growing pains as teams scale past spreadsheets\n\nThat's exactly where Odoo implementation makes the difference.\n🔧 What we help businesses unlock with Odoo: \n• Manufacturing & MRP : from shop floor to finished goods, with OEE and barcode tracking \n• Quality & Maintenance : proactive, not reactive \n• Project & PLM : engineering change management made simple \n• Field Service : dispatch, track, and invoice from one platform \n• CRM, Sales & Purchase : a single source of truth for your revenue engine \n• Accounting & Timesheet : clean financials, zero guesswork\n\nWhether you're a precision engineering firm, a chemical manufacturer, or a renewable energy EPC company the right ERP isn't about adding software. It's about giving your team one system that actually reflects how you work.\n\nif your business is still stitching together spreadsheets, disconnected tools, or legacy systems let's talk about what an Odoo implementation could look like for you.\nOODU Implementers\nSagar Chaudhari\nProject Lead & BD\n+91 9940456030\n#Odoo #ERP #DigitalTransformation #Manufacturing #Implementation #BusinessGrowth #MH #MP #Logistics #Mumbai #Pune #Bengaluru #Nagpur #Bhopal #Indore #Nashik #Wardha #MIDC #MIA #BMA #BIA #PIA #India #BOP"
+    },
+    {
+      "date": "2026-07-04 12:05:43",
+      "author_name": "Muhammad Imran",
+      "author_url": "https://www.linkedin.com/in/muhammad-imran-980b92200?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADNur_ABtyNWeipkN1uYCws3fnd-ZKllmbk",
+      "post_url": "https://www.linkedin.com/posts/muhammad-imran-980b92200_odoo-odoo19-erp-activity-7479113207530455040-PwFN?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "🎉 I'm pleased to share that I have successfully completed the Odoo 19 Financial Leadership Program™.\nThis course strengthened my understanding of Odoo's functional capabilities, including:\n✅ Accounting & Financial Management\n✅ Sales & CRM\n✅ Purchase Management\n✅ Inventory & Logistics\n✅ Manufacturing (MRP)\n✅ Point of Sale (POS)\n✅ Business Process Automation\n✅ Reporting & Analytics\nAs an Odoo Developer, this training has broadened my functional expertise and enhanced my understanding of end-to-end business processes, bringing me closer to my goal of becoming an Odoo Techno-Functional Consultant.\nI look forward to applying these learnings to contribute to successful ERP implementations, deliver greater value to clients, and continue growing within the Odoo ecosystem.\n#Odoo #Odoo19 #ERP #OdooDeveloper #TechnoFunctionalConsultant #ProfessionalDevelopment #ContinuousLearning #RASCO"
+    },
+    {
+      "date": "2026-07-04 12:06:24",
+      "author_name": "Moaz Gamal",
+      "author_url": "https://www.linkedin.com/in/moaz-gamal-687478353?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFgrEMcBPsRmmBDZqwmc22PpOpeCKr8mdUI",
+      "post_url": "https://www.linkedin.com/posts/moaz-gamal-687478353_financialstatements-accountinginterview-financialaccounting-activity-7479113377810718720-a_iy?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "📌 Financial Statements Interview Series – Top Questions & Best Answers\nIf you're preparing for an Accounting interview, mastering Financial Statements is essential. They are the final output of the accounting cycle and the primary source of information used by management, investors, auditors, and other stakeholders to evaluate a company's financial performance.\nIn this guide, I covered some of the most frequently asked Financial Statements interview questions, including:\n ✅ What are Financial Statements?\n ✅ Why Financial Statements are Important\n ✅ The Main Types of Financial Statements\n ✅ Balance Sheet Analysis\n ✅ Income Statement Analysis\n ✅ Cash Flow Statement Analysis\n ✅ Relationship Between the Financial Statements\n ✅ Purpose of Financial Reporting\n ✅ Common Financial Statement Errors\n ✅ Best Practices to Ensure Accuracy\n💡 Key Insight\nFinancial statements don't just report numbers—they tell the financial story of a business. Accurate reporting improves transparency, supports better decisions, and builds confidence among investors and stakeholders.\n🎯 Interview Tip\nDuring your interview, don't only define each financial statement. Explain how they are connected, how a single transaction flows through the accounting cycle, and how it ultimately impacts the company's financial position and performance.\nA skilled accountant doesn't just prepare financial statements—they understand the story behind every figure.\n\n📌 سلسلة مقابلات المحاسبة – أهم أسئلة وأجوبة القوائم المالية\nإذا كنت تستعد لمقابلة عمل في مجال المحاسبة، فمن الضروري أن تمتلك فهمًا عميقًا للقوائم المالية، فهي تمثل النتيجة النهائية للدورة المحاسبية، وتعتمد عليها الإدارة والمستثمرون والمراجعون في تقييم الأداء المالي واتخاذ القرارات.\nفي هذا المنشور ستتعرف على أشهر الأسئلة التي تتكرر في مقابلات العمل الخاصة بالقوائم المالية، ومنها:\n ✅ ما هي القوائم المالية؟\n ✅ لماذا تعد القوائم المالية مهمة؟\n ✅ أنواع القوائم المالية الرئيسية\n ✅ كيفية تحليل قائمة المركز المالي\n ✅ كيفية تحليل قائمة الدخل\n ✅ كيفية تحليل قائمة التدفقات النقدية\n ✅ العلاقة بين القوائم المالية\n ✅ الهدف من إعداد التقارير المالية\n ✅ أشهر الأخطاء التي تؤثر على القوائم المالية\n ✅ أفضل الممارسات لضمان دقة القوائم المالية\n💡 معلومة مهمة\nالقوائم المالية ليست مجرد أرقام، بل هي وسيلة لعرض الأداء الحقيقي للمنشأة ومركزها المالي، وكلما كانت البيانات دقيقة كانت القرارات الإدارية والاستثمارية أكثر جودة وموثوقية.\n🎯 نصيحة للمقابلات\nعند الإجابة عن الأسئلة المتعلقة بالقوائم المالية، لا تكتفِ بشرح وظيفة كل قائمة، بل وضح العلاقة بينها، وكيف تنتقل العملية المالية منذ تسجيلها وحتى ظهور أثرها في القوائم المالية. هذا الأسلوب يعكس فهمًا عمليًا للدورة المحاسبية ويمنحك أفضلية أثناء المقابلة.\nالمحاسب المتميز لا يكتفي بإعداد القوائم المالية، بل يستطيع تحليلها واستخلاص المعلومات التي تساعد على تقييم أداء المنشأة واتخاذ قرارات مالية سليمة.\n\n#FinancialStatements #AccountingInterview #FinancialAccounting #Accounting #BalanceSheet #IncomeStatement #CashFlow #FinancialReporting #AccountingTips #ERP #Odoo #FinanceProfessionals #CareerGrowth #Accounting"
+    },
+    {
+      "date": "2026-07-04 12:00:37",
+      "author_name": "Recruiting Basket",
+      "author_url": "https://www.linkedin.com/company/recruitingbasket/posts",
+      "post_url": "https://www.linkedin.com/posts/recruitingbasket_businessanalyst-odoo-erpjobs-activity-7479111922487832576-tZ4G?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "Brain Station 23 is hiring a Business Analyst (Odoo) for professionals with 2–6 years of experience in business analysis and ERP solutions. If you're looking to work on enterprise digital transformation projects, the application link: https://lnkd.in/gEMmDuci\n\n\n#BusinessAnalyst #Odoo #ERPJobs #TechJobs #CareerGrowth"
+    },
+    {
+      "date": "2026-07-04 11:58:41",
+      "author_name": "NOVΛLITH Systems | Odoo Partner",
+      "author_url": "https://www.linkedin.com/company/novalith.systems/posts",
+      "post_url": "https://www.linkedin.com/posts/novalith%2Esystems_odoo-erp-businessautomation-activity-7479111436749860864-a_wE?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "Still using Excel to run your business?\n\nExcel is an excellent tool.\n\nBut as your business grows, managing inventory, sales, purchasing, accounting, and customer information across multiple spreadsheets becomes difficult.\n\nCommon signs you've outgrown spreadsheets:\n📌 Duplicate data entry\n📌 Different versions of the same file\n📌 Time spent searching for information\n📌 Manual reports at the end of every month\n📌 Increased risk of costly errors\n\nAn ERP system brings all your business processes together in one place, giving you real-time visibility and helping your team work more efficiently.\n\nThe goal isn't to replace what works—it's to eliminate repetitive tasks so you can focus on growing your business.\n\nAt Novalith Systems, we help businesses in the UAE streamline their operations with Odoo ERP, making everyday work simpler, faster, and more connected.\nWhat is the biggest challenge your business faces with spreadsheets today?\n\n#Odoo #ERP #BusinessAutomation #DigitalTransformation #SME #Wholesale #Manufacturing #UAEBusiness #BusinessGrowth #NovalithSystems"
+    },
+    {
+      "date": "2026-07-04 11:48:09",
+      "author_name": "Naffar Hussain ACA,APFA",
+      "author_url": "https://www.linkedin.com/in/naffar-hussain-aca-apfa-b515ab64?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA2dNq0BvJ0PWvv87Ftr0Pk-YOIGkFXQTk4",
+      "post_url": "https://www.linkedin.com/posts/naffar-hussain-aca-apfa-b515ab64_arsalan-senior-accountant-activity-7479108783336644608-8ntO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "Dear Hiring Manager,\n\nI am pleased to recommend Mr. Arsalan Haider for the position of Senior Accountant.\n\nArsalan brings over 7 years of UAE accounting experience across Real Estate, Contracting, Logistics, Trading, IT, and Business Solutions sectors. His expertise includes financial reporting (IFRS), budgeting & forecasting (FP&A), VAT & Corporate Tax compliance, audit coordination, multi-entity accounting, and ERP systems.  \n\nKey Highlights:\n\n* 7+ years of UAE accounting experience.\n* ACCA (Part Qualified), M.Com, B.Com.\n* Strong knowledge of UAE VAT, Corporate Tax, IFRS, and audit compliance.\n* Hands-on experience with Zoho Books, Odoo, QuickBooks, SAP Business One, Microsoft Dynamics, Focus ERP, and Tally.\n* Advanced Excel skills and financial analysis.\n* Valid UAE Driving License.\n* Immediate Joiner.  \n\nHe has successfully managed end-to-end accounting operations, financial reporting, VAT compliance, budgeting, bank reconciliations, group consolidations, and audit support while implementing process improvements and ERP automation.  \n\nI believe Arsalan would be a valuable addition to any finance team seeking a reliable and experienced accounting professional.\n\nFor further details or to schedule an interview, please contact him directly:\n\nArsalan Haider\n📞 +971 56 1974504\n📧 arsalan.haider0333@gmail.com"
+    },
+    {
+      "date": "2026-07-04 11:48:20",
+      "author_name": "Frederic MOUGET",
+      "author_url": "https://www.linkedin.com/in/fredericmouget?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAALhMzABI0VcLq_RtBU_lOKeJgzQhwU2MGw",
+      "post_url": "https://www.linkedin.com/posts/fredericmouget_brilliant-analysis-for-sap-users-in-large-activity-7479108829285273600-7HWI?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "Brilliant analysis. For SAP users in large groups, the real challenge is multi-valuation (multi-ledger accounting + material ledger). Odoo Enterprise is almost ready to disrupt this space, and Vibe Coding provides the decisive development speed to make it happen.\nWith tens of thousands of SAP ECC customers facing the painful, high-cost forced migration to S/4HANA before the 2030 deadline, this opens a massive opportunity for two-tier ERP strategies.\nLet's connect if you're navigating this transition!"
+    },
+    {
+      "date": "2026-07-04 10:42:21",
+      "author_name": "Sai Shakti Solar Private Limited",
+      "author_url": "https://www.linkedin.com/company/sai-shakti-solar-private-limited/posts",
+      "post_url": "https://www.linkedin.com/posts/sai-shakti-solar-private-limited_hiring-servicehead-solarjobs-activity-7479092227462463488-Aa_e?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "🚨 We're Hiring | Service Head – Solar Water Pump (Maharashtra Operations)\n\nBuild. Lead. Transform.\n\nAre you an experienced service leader ready to build a high-performance service organization from the ground up?\nSai Shakti Solar Private Limited is looking for a dynamic Service Head to establish and lead our Solar Water Pump Service Operations across Maharashtra.\n\n📍 Location: Maharashtra (Base: Parbhani)\n🏢 Industry: Solar EPC | Solar Water Pump | Renewable Energy\n\nKey Responsibilities\n\n✅ Build and lead the complete Service Department\n✅ Develop district-level Service Centres & Authorized Service Partner Network across Maharashtra\n✅ Recruit, train & manage Regional Service Managers, Engineers & Technicians\n✅ Establish SOPs, KPIs, SLAs & service processes\n✅ Lead installation support, commissioning, preventive maintenance & troubleshooting\n✅ Manage warranty, AMC, customer complaints & service excellence\n✅ Implement ERP-based Service Management (Odoo, SAP or similar)\n✅ Oversee spare parts planning, inventory & logistics\n✅ Coordinate with Projects, Procurement, Finance, HR, OEMs & Government agencies\n\nWhat We're Looking For\n🎓 B.E./B.Tech/Diploma in Electrical, Mechanical, Electronics, Renewable Energy or related field (MBA in Operations is an advantage)\n✔ 10–15 years of experience in Solar Water Pumps, Solar EPC, Renewable Energy, Pump Manufacturing or Electrical Equipment\n✔ Proven experience building service operations from scratch\n✔ Experience with PM-KUSUM, MEDA, MSEDCL or Government Solar Projects is highly preferred\n\nWhy Join Us?\n🌟 Build a Maharashtra-wide service organization from the ground up\n🌟 Lead a large technical workforce\n🌟 Drive digital transformation through ERP-enabled service operations\n🌟 Competitive salary (Best in the Industry)\n\n📩 Apply Now\n📧 saishaktisolar@gmail.com\n📞 +91 7620376228 | +91 8421613843\n\nKnow someone who's a great fit? Like, Share, or Tag them in the comments!\n\n#Hiring #ServiceHead #SolarJobs #SolarWaterPump #RenewableEnergy #SolarEPC #AfterSalesService #ServiceOperations #LeadershipHiring #EngineeringJobs #PMKUSUM #MEDA #MSEDCL #MaharashtraJobs #HiringNow"
+    },
+    {
+      "date": "2026-07-04 10:42:38",
+      "author_name": "Balaji Renge",
+      "author_url": "https://www.linkedin.com/in/balaji-renge-46a648416?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGnQZJIBWwITw6pcdBC_VgAxmF3nn3O96j4",
+      "post_url": "https://www.linkedin.com/posts/balaji-renge-46a648416_hiring-servicehead-solarjobs-activity-7479092295720509440-LgTy?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "🚨 We're Hiring | Service Head – Solar Water Pump (Maharashtra Operations)\n\nBuild. Lead. Transform.\n\nAre you an experienced service leader ready to build a high-performance service organization from the ground up?\nSai Shakti Solar Private Limited is looking for a dynamic Service Head to establish and lead our Solar Water Pump Service Operations across Maharashtra.\n\n📍 Location: Maharashtra (Base: Parbhani)\n🏢 Industry: Solar EPC | Solar Water Pump | Renewable Energy\n\nKey Responsibilities\n\n✅ Build and lead the complete Service Department\n✅ Develop district-level Service Centres & Authorized Service Partner Network across Maharashtra\n✅ Recruit, train & manage Regional Service Managers, Engineers & Technicians\n✅ Establish SOPs, KPIs, SLAs & service processes\n✅ Lead installation support, commissioning, preventive maintenance & troubleshooting\n✅ Manage warranty, AMC, customer complaints & service excellence\n✅ Implement ERP-based Service Management (Odoo, SAP or similar)\n✅ Oversee spare parts planning, inventory & logistics\n✅ Coordinate with Projects, Procurement, Finance, HR, OEMs & Government agencies\n\nWhat We're Looking For\n🎓 B.E./B.Tech/Diploma in Electrical, Mechanical, Electronics, Renewable Energy or related field (MBA in Operations is an advantage)\n✔ 10–15 years of experience in Solar Water Pumps, Solar EPC, Renewable Energy, Pump Manufacturing or Electrical Equipment\n✔ Proven experience building service operations from scratch\n✔ Experience with PM-KUSUM, MEDA, MSEDCL or Government Solar Projects is highly preferred\n\nWhy Join Us?\n🌟 Build a Maharashtra-wide service organization from the ground up\n🌟 Lead a large technical workforce\n🌟 Drive digital transformation through ERP-enabled service operations\n🌟 Competitive salary (Best in the Industry)\n\n📩 Apply Now\n📧 saishaktisolar@gmail.com\n📞 +91 7620376228 | +91 8421613843\n\nKnow someone who's a great fit? Like, Share, or Tag them in the comments!\n\n#Hiring #ServiceHead #SolarJobs #SolarWaterPump #RenewableEnergy #SolarEPC #AfterSalesService #ServiceOperations #LeadershipHiring #EngineeringJobs #PMKUSUM #MEDA #MSEDCL #MaharashtraJobs #HiringNow"
+    },
+    {
+      "date": "2026-07-04 10:00:07",
+      "author_name": "M2 Designyield Pvt Ltd",
+      "author_url": "https://www.linkedin.com/company/m2-designyield-pvt-ltd/posts",
+      "post_url": "https://www.linkedin.com/posts/m2-designyield-pvt-ltd_odoomanufacturing-industrialautomation-enterpriseresourceplanning-activity-7479081597581975552-YGIa?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "How Odoo Helps Manufacturing Companies: One Platform. Every Process. Total Control. 🏭⚙️📈\n\nRunning a modern factory floor with manual processes creates a constant cycle of operational friction. When production schedules, inventory planning, and floor monitoring operate in disconnected silos, hidden inefficiencies damage your margins, delay deliveries, and limit your factory's true output potential.\n\nAt M2 Design Yield Pvt Ltd, an Official Odoo Partner, we transform chaotic factory floor operations into highly synchronized workflows. By implementing an all-in-one Odoo business management ecosystem, we bridge the gap between planning and execution—giving your leadership team real-time insights and complete control over every single production stage.\n\nBreaking Down the Manufacturing Transformation:\n\n❌ 01. Common Industry Challenges:\nManual production tracking that slows down floor operations.\nUnexpected inventory shortages that stall assembly lines.\nDelayed customer orders due to disconnected tracking systems.\nPoor material planning and resource scheduling.\nA critical lack of real-time visibility across the shop floor.\n\n✔️ 02. How Odoo Solives Them:\nReal-Time Monitoring: Track active production lines and machine status live.\nSmart Inventory Management: Maintain absolute precision over raw materials and finished goods.\n\nAutomated Work Orders & Scheduling: Automatically route assembly tasks to the right work centers.\n\nDemand Forecasting & Planning: Align raw material purchasing with accurate market demand projections.\n\nCentralized Data & Reporting: Unify all operational metrics into a single source of truth.\n\n✨ 03. Key Enterprise Benefits:\n⏱️ Faster Production Cycles: Bring your products to market with zero operational lag.\n💰 Lower Operational Costs: Eliminate wasted labor hours and duplicate system licenses.\n🛡️ Fewer Errors & Waste: Maximize material yields with error-free automated scheduling.\n📊 Better Resource Utilization: Keep machines, materials, and labor perfectly balanced.\n⭐ Higher Customer Satisfaction: Fulfill large-scale orders on time, every single time.\n\nBuilt for Modern Industrial Scaling:\n🧩 All-in-One Business Management  \n🔄 Seamless Integration  \n📊 Real-time Insights \n🚀 Scalable & Future Ready\n\n🚀 Ready to Modernize Your Manufacturing Business? Let's implement Odoo and automate your operations from top to bottom. Connect with our engineering team today to map out your digital transformation.\n\nGet in Touch: \n👤 Ahmer Afzal Khan (Director Business Development) \n📧 ahmerkhan@m2designyield.com \n📞 +92 300 2000268 | 021 363 60666 \n🌐 www.m2designyield.com\n\n#OdooManufacturing #IndustrialAutomation #EnterpriseResourcePlanning #DigitalTransformationStrategy #M2DesignYieldPvtLtd #OdooOfficialPartner #ShopFloorControl #ProductionPlanning #InventoryOptimization #DemandForecasting #WorkflowAutomation #OperationalEfficiencyExperts #DataDrivenManufacturing #ScaleYourBusinessSmartly"
+    },
+    {
+      "date": "2026-07-04 09:45:01",
+      "author_name": "Amit Singh",
+      "author_url": "https://www.linkedin.com/in/amitkumarsinghfico?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABc_RWYBQyFpw_8E1iMv8RQoH5BRT8Rtz-c",
+      "post_url": "https://www.linkedin.com/posts/amitkumarsinghfico_erp-sapbusinessone-sapb1-activity-7479077795931987968-dotf?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "🏔️ Not all ERP systems are built for the same journey.\n\nOne of the biggest mistakes businesses make?\n\nChoosing an ERP based on popularity instead of business needs.\n\nThe “best” ERP isn’t the most expensive one.\n\nIt’s the one that fits your business today while supporting where you want to be tomorrow.\n\nThink of ERP systems like climbing mountains. ⛰️\n\n🌱 Startups & Small Businesses\n\nOdoo | Zoho\n\n✔️ Affordable\n\n✔️ Easy to implement\n\n✔️ Ideal for businesses beginning their digital journey\n\n⸻\n\n📈 Growing Businesses\n\nMicrosoft Dynamics 365\n\n✔️ Strong mid-market capabilities\n\n✔️ Flexible finance, sales, and operations\n\n✔️ Scales with business growth\n\n⸻\n\n🏭 Small & Medium Enterprises (SMEs)\n\nSAP Business One\n\n✔️ Finance\n\n✔️ Procurement\n\n✔️ Inventory\n\n✔️ Manufacturing\n\n✔️ CRM\n\n✔️ Real-time reporting\n\nA powerful ERP for companies that have outgrown spreadsheets but don’t yet need an enterprise platform.\n\n⸻\n\n☁️ Rapidly Scaling Organizations\n\nOracle NetSuite\n\n✔️ Cloud-native ERP\n\n✔️ Multi-company support\n\n✔️ Global financial management\n\n✔️ Strong scalability\n\n⸻\n\n🌍 Large Enterprises\n\nSAP S/4HANA\n\n✔️ Intelligent ERP\n\n✔️ Real-time analytics\n\n✔️ End-to-end business integration\n\n✔️ AI, automation, and digital transformation\n\nDesigned for complex global organizations.\n\n⸻\n\n🏢 Enterprise Financial Operations\n\nOracle ERP Cloud\n\n✔️ Advanced financial management\n\n✔️ Procurement\n\n✔️ Risk & compliance\n\n✔️ Enterprise performance management\n\n⸻\n\n💡 The Right ERP Depends On\n\n✅ Company size\n\n✅ Industry\n\n✅ Budget\n\n✅ Business processes\n\n✅ Future growth plans\n\nThe highest mountain isn’t always the right one to climb.\n\nSometimes the smartest decision is choosing the ERP that matches your current stage—and grows with your business.\n\nBecause an ERP should enable growth, not become a burden.\n\n💬 Which ERP have you worked with—and what do you like most about it?\n\n#ERP #SAPBusinessOne #SAPB1 #SAPS4HANA #MicrosoftDynamics365 #OracleNetSuite #OracleERP #Odoo #Zoho #DigitalTransformation #BusinessSoftware #EnterpriseSoftware #AmitSingh #Manufacturing #SupplyChain #Finance #Automation #CloudERP #SME #Enterprise #BusinessTechnology #ERPConsulting"
+    },
+    {
+      "date": "2026-07-04 07:30:04",
+      "author_name": "Atya Inno LLP",
+      "author_url": "https://www.linkedin.com/company/atya-inno-llp/posts",
+      "post_url": "https://www.linkedin.com/posts/atya-inno-llp_odoo-erp-businessautomation-activity-7479043835155824640-j4Tx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "Every growing business reaches a point where manual processes start slowing growth. Purchase Automation is one of the most common operational challenges we see while working with SMEs. \n \nIn this post we explain the business problem, demonstrate how Odoo solves it, and share practical tips that business owners can implement immediately. \n\nCheck it out yourself - https://lnkd.in/eGgbmfse \n\nIf you're planning to digitize your operations, we'd be happy to understand your workflow and recommend the right solution. \n \n📩 Send us a message for a free consultation. \n \n#Odoo #ERP #BusinessAutomation #Manufacturing #CRM #DigitalTransformation"
+    },
+    {
+      "date": "2026-07-04 10:34:41",
+      "author_name": "Sai Shakti Solar Private Limited",
+      "author_url": "https://www.linkedin.com/company/sai-shakti-solar-private-limited/posts",
+      "post_url": "https://www.linkedin.com/posts/sai-shakti-solar-private-limited_hiring-workfromhome-wfhjobs-activity-7479090296451149824-2VNL?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "🌍 100% Work From Home Opportunity | We're Hiring an HR Manager (HR Setup & Development)\n\nBuild an HR Department from Scratch. Lead the People Strategy. Work from Anywhere.\n\nAre you an experienced HR professional who enjoys creating systems, building teams, and driving organizational growth? If yes, this is your opportunity to make a lasting impact while enjoying the flexibility of 100% Remote Work.\nAt Sai Shakti Solar Pvt. Ltd., we're looking for a strategic and hands-on HR Manager to establish and lead our entire HR function from the ground up.\n\n🏡 Location: 100% Work From Home (Remote)\n🏢 Company: Sai Shakti Solar Pvt. Ltd.\n🌞 Industry: Solar EPC | Renewable Energy\n\n🚀 What You'll Be Responsible For\n✅ Establish the complete HR department from scratch\n✅ Develop HR policies, SOPs, Employee Handbook & HR processes\n✅ Design organizational structure, Job Descriptions & workforce planning\n✅ Lead end-to-end recruitment and talent acquisition\n✅ Implement and manage an HRMS\n✅ Oversee attendance, leave, payroll coordination & employee records\n✅ Develop Performance Management Systems (KRA/KPI & Appraisals)\n✅ Ensure compliance with Labour Laws, PF, ESIC & statutory requirements\n✅ Drive onboarding, employee engagement, learning & development\n✅ Build and mentor the HR team as the company grows\n\n🎯 We're Looking For\n\n✔ MBA/PGDM in Human Resources (or equivalent)\n✔ 8–12 years of relevant HR experience\n✔ Experience in Manufacturing, EPC, Infrastructure, Renewable Energy or Engineering sectors preferred\n✔ Hands-on HRMS implementation experience (Darwinbox, SAP, Odoo, HROne, Zoho People or similar)\n✔ Excellent leadership, communication and stakeholder management skills\n\n⭐ Ideal Candidate\n\n• Has successfully built HR functions from the ground up\n• Thrives in a fast-growing organization\n• Can work independently and create scalable HR systems\n• Is self-driven, proactive and comfortable working remotely\n\n💰 Compensation\n\nSalary is not a constraint for the right candidate. We value talent and will offer a competitive package based on your experience and capabilities.\n\n📩 How to Apply\n\nPlease email your updated resume to saishaktisolar@gmail.com along with:\n📌 Current CTC\n📌 Expected CTC\n📌 Notice Period\n📌 Current Location\n\n🌟 Why Join Us?\n\n✨ 100% Work From Home\n✨ Leadership role with high visibility\n✨ Opportunity to build the HR function from day one\n✨ Be part of one of India's fast-growing renewable energy companies\n\nIf this opportunity matches your profile—or if you know someone who would be a great fit—please Like, Share, Comment, or Tag them to help us reach the right talent.\n\n#Hiring #WorkFromHome #WFHJobs #RemoteJobs #RemoteHiring #HRManager #HumanResources #HRLeadership #TalentAcquisition #HRJobs #RenewableEnergy #SolarEnergy #SolarJobs #EPC #ManufacturingJobs #CareerOpportunity #LeadershipHiring #HiringNow"
+    },
+    {
+      "date": "2026-07-04 10:35:24",
+      "author_name": "Balaji Renge",
+      "author_url": "https://www.linkedin.com/in/balaji-renge-46a648416?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGnQZJIBWwITw6pcdBC_VgAxmF3nn3O96j4",
+      "post_url": "https://www.linkedin.com/posts/balaji-renge-46a648416_hiring-workfromhome-wfhjobs-activity-7479090476227284993-1Wr-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "🌍 100% Work From Home Opportunity | We're Hiring an HR Manager (HR Setup & Development)\n\nBuild an HR Department from Scratch. Lead the People Strategy. Work from Anywhere.\n\nAre you an experienced HR professional who enjoys creating systems, building teams, and driving organizational growth? If yes, this is your opportunity to make a lasting impact while enjoying the flexibility of 100% Remote Work.\nAt Sai Shakti Solar Pvt. Ltd., we're looking for a strategic and hands-on HR Manager to establish and lead our entire HR function from the ground up.\n\n🏡 Location: 100% Work From Home (Remote)\n🏢 Company: Sai Shakti Solar Pvt. Ltd.\n🌞 Industry: Solar EPC | Renewable Energy\n\n🚀 What You'll Be Responsible For\n\n✅ Establish the complete HR department from scratch\n✅ Develop HR policies, SOPs, Employee Handbook & HR processes\n✅ Design organizational structure, Job Descriptions & workforce planning\n✅ Lead end-to-end recruitment and talent acquisition\n✅ Implement and manage an HRMS\n✅ Oversee attendance, leave, payroll coordination & employee records\n✅ Develop Performance Management Systems (KRA/KPI & Appraisals)\n✅ Ensure compliance with Labour Laws, PF, ESIC & statutory requirements\n✅ Drive onboarding, employee engagement, learning & development\n✅ Build and mentor the HR team as the company grows\n\n🎯 We're Looking For\n\n✔ MBA/PGDM in Human Resources (or equivalent)\n✔ 8–12 years of relevant HR experience\n✔ Experience in Manufacturing, EPC, Infrastructure, Renewable Energy or Engineering sectors preferred\n✔ Hands-on HRMS implementation experience (Darwinbox, SAP, Odoo, HROne, Zoho People or similar)\n✔ Excellent leadership, communication and stakeholder management skills\n\n⭐ Ideal Candidate\n\n• Has successfully built HR functions from the ground up\n• Thrives in a fast-growing organization\n• Can work independently and create scalable HR systems\n• Is self-driven, proactive and comfortable working remotely\n\n💰 Compensation\n\nSalary is not a constraint for the right candidate. We value talent and will offer a competitive package based on your experience and capabilities.\n\n📩 How to Apply\n\nPlease email your updated resume to saishaktisolar@gmail.com along with:\n📌 Current CTC\n📌 Expected CTC\n📌 Notice Period\n📌 Current Location\n\n🌟 Why Join Us?\n\n✨ 100% Work From Home\n✨ Leadership role with high visibility\n✨ Opportunity to build the HR function from day one\n✨ Be part of one of India's fast-growing renewable energy companies\n\nIf this opportunity matches your profile—or if you know someone who would be a great fit—please Like, Share, Comment, or Tag them to help us reach the right talent.\n\n#Hiring #WorkFromHome #WFHJobs #RemoteJobs #RemoteHiring #HRManager #HumanResources #HRLeadership #TalentAcquisition #HRJobs #RenewableEnergy #SolarEnergy #SolarJobs #EPC #ManufacturingJobs #CareerOpportunity #LeadershipHiring #HiringNow"
+    },
+    {
+      "date": "2026-07-04 07:30:08",
+      "author_name": "QAAgility Technologies",
+      "author_url": "https://www.linkedin.com/company/qaagility-technologies/posts",
+      "post_url": "https://www.linkedin.com/posts/qaagility-technologies_odoo-for-businesses-activity-7479043853178556416-GY62?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "Most growing businesses don't have one operations problem. They have five separate tools creating the same problem in five different places.\n\nFinance reconciled here. Inventory tracked there. HR in a spreadsheet. Sales pipeline in a CRM that doesn't connect to fulfilment. Customer queries handled somewhere else entirely.\n\nEvery handoff is a point where data degrades, time is lost, and decisions get made on numbers that are already out of date.\n\nOdoo consolidates all of it; finance, inventory, HR, sales, manufacturing, projects into one platform, built around how your business actually works.\n\nQAAgility Technologies is a certified Odoo partner with 10+ years of ERP delivery experience. We implement Odoo with a QA-first approach — structured UAT, integration testing, and data migration validation built into every project from day one.\n\nNo workarounds. No surprise go-lives. Just Odoo working the way it should.\nBook your free discovery session → https://lnkd.in/gC-4nv74"
+    },
+    {
+      "date": "2026-07-04 07:00:00",
+      "author_name": "iST Corporate Performance Consultants (Pvt) Limited",
+      "author_url": "https://www.linkedin.com/company/ist-cpc/posts",
+      "post_url": "https://www.linkedin.com/posts/ist-cpc_one-odoo-module-at-a-time-activity-7479036271114506240-w0Km?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "The biggest ERP mistake businesses make?\nTrying to implement everything at once. ➡️\n\nOdoo is modular for a reason.\nStart with one. Master it. Scale from there.\n\niST Corporate Performance Consultants\n(a Sidat Hyder company) implements\none module at a time — starting with CRM:\n\n→ CRM — every lead tracked, no follow-up missed\n→ Sales — pipeline to invoice, fully automated\n→ Accounting — reconciliation done, books closed in hours\n→ Inventory — real-time stock, zero manual counts\n\nSame powerful ERP.\nZero implementation overwhelm.\n\n🎯 Book a FREE Consultation\n📧 info@ist-cpc.com\n📞 +92 323 2329418\n\nSyed Sohail Rizwan | Syed Imran Rais | Ahmer Kashif\nSajjad Ahmed | Shoaib Nauman | Imran Muhammad | Tahir Khan\n\n#OdooERP #OdooModules #ERPImplementation\n#StartSmall #ScaleSmart #BusinessAutomation\n#SidatHyder #iSTCPC #PakistanBusiness"
+    },
+    {
+      "date": "2026-07-04 06:30:03",
+      "author_name": "NerithonX Technologies (Pvt.) Ltd.",
+      "author_url": "https://www.linkedin.com/company/nerithonx-technologies/posts",
+      "post_url": "https://www.linkedin.com/posts/nerithonx-technologies_nerithonx-odooerp-schoolmanagement-activity-7479028734092558336-4MoT?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "Smarter School Management. Better Education.\n\nManaging a school involves much more than academics. From student records and attendance tracking to examinations, fee collection, parent communication, and reporting, educational institutions need a connected system that simplifies administration and improves learning outcomes.\n\nOdoo School Management provides a centralized platform to manage school operations efficiently while enhancing collaboration between administrators, teachers, students, and parents.\n\nWith Odoo School Management, you can:\n\n✔ Manage student records from admission to graduation\n✔ Track attendance automatically and accurately\n✔ Organize timetables and academic schedules\n✔ Streamline examination and result management\n✔ Simplify fee collection and financial tracking\n✔ Enhance communication with parents and students\n✔ Manage library operations efficiently\n✔ Generate real-time reports and analytics for better decision-making\n\nBy connecting academic and administrative processes in one platform, schools can reduce manual work, improve transparency, and focus on delivering quality education.\n\nAt NerithonX, we help educational institutions implement, customize, and optimize Odoo School Management solutions tailored to their specific operational requirements.\n\nTransform your school with Odoo.\n\n📞 Phone: (091) 3166947  \n📱 Mobile / WhatsApp: 0315 2451151  \n📧 Email: info@nerithonx.com\n\n#NerithonX #OdooERP #SchoolManagement #EducationERP #StudentManagement #DigitalTransformation #SchoolAutomation #EducationTechnology #SmartSchool #OdooPartner #AcademicSuccess"
+    },
+    {
+      "date": "2026-06-09 22:22:36",
+      "author_name": "Hilal Abu Askar",
+      "author_url": "https://www.linkedin.com/in/h-abuaskar?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABiyf6gBWS2soBdwKczMy7ZANLtKNikjbHM",
+      "post_url": "https://www.linkedin.com/posts/h-abuaskar_%D9%88%D8%B8%D8%A7%D8%A6%D9%81-%D8%B9%D8%A7%D9%85%D8%A9-%D8%B4%D8%B1%D9%83%D8%A9-%D9%85%D8%AE%D8%AA%D8%B5%D8%A9-%D8%A8%D9%85%D8%AC%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%84%D8%A7%D8%AA-%D9%81%D9%8A-activity-7470208754555416576-NZdT?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "وظائف عامة \n\nشركة مختصة بمجال المقاولات في الدمام تبحث عن:\nمهندس مدني ( تشطيبات )\n- بكالوريوس هندسه مدني \n- شهاده PMP  \n- الاشراف على المشاريع\n-  لغة إنجليزية ممتازة\n- خبرة من 5 إلى 8 في نفس المجال \n\nاخصائي/ة مبيعات وتسويق (تمهير)\n لغة إنجليزية جيدة\nمهارات تواصل عالية \n\nمهندس/ة تصميم داخلي (تمهير)\n لغة إنجليزية ممتازة \nمهارات تواصل عالية\n*ملف الأعمال خاص لشركات مقاولات*\n\nمهندس كهرباء (تمهير)\n لغة إنجليزية ممتازة \nمهارات تواصل عالية\n\nاخصائي قانوني (تمهير)\n لغة إنجليزية جيدة\nمهارات تواصل عالية\nمهارات استخدام الاكسل \n \n نأمل مشاركة سيرتك الذاتية  على البريد الإلكتروني:\n\nrealestatehr9@gmail.com\n\n\n\n\n\n\n📢 شاغر وظيفي – مصور/ة إعلانات\n📍 الموقع: الخرج – المدينة الصناعية\n⏳ الانضمام: فوري\n\n🏢 نبذة عن الشركة:\nشركة صناعية متخصصة في تصنيع منتجات العناية بالسيارات.\n\nالمهام والمتطلبات:\n• خبرة في التصوير الفوتوغرافي وتصوير المحتوى الإعلاني.\n• إجادة التعامل مع معدات التصوير والإضاءة المختلفة.\n• القدرة على إنتاج صور ومقاطع احترافية للمنتجات.\n• الإبداع والاهتمام بالتفاصيل وجودة المخرجات.\n• لا يشترط عدد سنوات خبرة محدد، والأولوية للمهارات العملية وجودة الأعمال السابقة.\n\n📩 للتقديم:\nيرجى إرسال السيرة الذاتية وأعمال التصوير (Portfolio) إلى:\nhr@rsfil.com\nمع كتابة (مصور/ة إعلانات - الخرج) في عنوان البريد الإلكتروني.\n\n\n\n\n\n\n\nاعلان 🔴\n\nشركة \" قطاع مطاعم \"\nمقرها شرق  الرياض \n\nنبحث عن متخصص IT مختص في نظام اودو  odoo\n\nخبره خمس سنوات و اكثر \n\nالرجاء ارسال السير الذاتيه على الاميل\nمع توضيح المسمى الوظيفي \n\nNFOODHR@gmail.com\n\n\n\n\n\n\nتعلن شركة قابضة عن توفر شواغر وظيفية بمدينة الرياض للمسميات التالية:\n\n1- أخصائي محاسبة\n• حديث تخرج\n• دبلوم محاسبة\n\n2- أخصائي عمليات موارد بشرية\n• خبرة لا تقل عن 3 سنوات في مجال الموارد البشرية\n\n📍 مكان العمل: الرياض\n\nللمهتمين، يرجى إرسال السيرة الذاتية عبر البريد الإلكتروني التالي:\nHR@ingaz.com.sa\n\n\n\n\n\n\n\nمع كتابة المسمى الوظيفي في عنوان البريد الإلكتروني.\n\nشاغر وظيفي.\n\n📍الرياض \nمطلوب\n*(محاسب اول - Senior Accountant)*\nالمتطلبات   :  \n -بكالوريوس محاسبة. \n -خبرة عملية لا تقل عن 5 سنوات في \"نشاط المطاعم\" مطاعم فقط. \n-إجادة اللغة الإنجليزية تحدثاً و كتابة. \n-إجادة العمل على برامج مايكروسوفت اوفيس.\n- مكان العمل- شمال الرياض(فقط).\n\nللتقديم يُرجى ارسال السيرة الذاتية على الإيميل -   \nAhmed.say2035@gmail.com"
+    },
+    {
+      "date": "2026-06-09 11:06:26",
+      "author_name": "Hany Youssef",
+      "author_url": "https://www.linkedin.com/in/hany-youssef-95602b187?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACv24ZIBxqZnDeA1YewVVfpJgsHJ6uV7VHc",
+      "post_url": "https://www.linkedin.com/posts/hany-youssef-95602b187_%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8-%D8%AE%D8%A8%D8%B1%D9%87-%D9%85%D9%86-%D8%B3%D9%86%D9%87-%D8%A7%D9%84%D9%8A-%D9%A3-%D8%B3%D9%86%D9%88%D8%A7%D8%AA-%D9%8A%D9%83%D9%88%D9%86-activity-7470038590652162049-jfZy?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "مطلوب محاسب خبره من سنه الي ٣ سنوات يكون عنده خبره في الاكسيل والبرامج المحاسبيه ويفضل اودو لشركه مقرها مدينة نصر لارسال السي في التواصل علي الرقم :01080348879"
+    },
+    {
+      "date": "2026-06-08 14:36:02",
+      "author_name": "سفر للخارج",
+      "author_url": "https://www.linkedin.com/in/%D8%B3%D9%81%D8%B1-%D9%84%D9%84%D8%AE%D8%A7%D8%B1%D8%AC-3a9a81413?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGlX-PEBEIsuyQ_b0QrsHkK4vYrrw8Gtpbk",
+      "post_url": "https://www.linkedin.com/posts/%D8%B3%D9%81%D8%B1-%D9%84%D9%84%D8%AE%D8%A7%D8%B1%D8%AC-3a9a81413_%D9%81%D8%B1%D8%B5%D9%87-%D8%B9%D9%85%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D9%87-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D9%87-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D9%87-activity-7469728950299230208-rmPd?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGq_cL0BvZdQCuTedwB8SNpncUqDfxkRWGs",
+      "post_text": "فرصه عمل في المملكه العربيه السعوديه 🇸🇦 \nمطلوب it\nيكون خبره علي سيستم اودو\n( خبره خمس سنوات) \nللتواصل واتساب 01288871136"
+    }
+  ]
+}

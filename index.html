@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odoo ERP Sales Leads Dashboard</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <i class="fa-solid fa-rocket-launch logo-icon"></i>
+                <h2>LeadTracker<span>.</span></h2>
+            </div>
+            <nav class="nav-menu">
+                <button class="nav-btn active" data-tab="overview">
+                    <i class="fa-solid fa-chart-pie"></i> Overview
+                </button>
+                <button class="nav-btn" data-tab="facebook">
+                    <i class="fa-brands fa-facebook"></i> Facebook Leads
+                </button>
+                <button class="nav-btn" data-tab="linkedin-jobs">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn Jobs
+                </button>
+                <button class="nav-btn" data-tab="linkedin-posts">
+                    <i class="fa-solid fa-paper-plane"></i> LinkedIn Posts
+                </button>
+            </nav>
+            <div class="sidebar-footer">
+                <p>Odoo ERP Sales Tool</p>
+                <span>v1.2.0</span>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="main-header">
+                <div class="header-title">
+                    <h1 id="page-title">Dashboard Overview</h1>
+                    <p id="page-subtitle">Real-time leads monitoring for Odoo ERP clients</p>
+                </div>
+                <div class="refresh-area">
+                    <span id="last-updated">Last updated: Loading...</span>
+                    <button class="btn btn-primary" id="refresh-btn">
+                        <i class="fa-solid fa-arrows-rotate"></i> Reload Data
+                    </button>
+                </div>
+            </header>
+
+            <!-- Overview Tab Content -->
+            <section class="tab-content active" id="tab-overview">
+                <!-- Stats Grid -->
+                <div class="stats-grid">
+                    <div class="stat-card total">
+                        <div class="stat-icon"><i class="fa-solid fa-database"></i></div>
+                        <div class="stat-details">
+                            <h3>Total Leads</h3>
+                            <span class="stat-value" id="total-count">0</span>
+                        </div>
+                    </div>
+                    <div class="stat-card facebook">
+                        <div class="stat-icon"><i class="fa-brands fa-facebook"></i></div>
+                        <div class="stat-details">
+                            <h3>Facebook Leads</h3>
+                            <span class="stat-value" id="fb-count">0</span>
+                        </div>
+                    </div>
+                    <div class="stat-card linkedin-jobs">
+                        <div class="stat-icon"><i class="fa-brands fa-linkedin"></i></div>
+                        <div class="stat-details">
+                            <h3>LinkedIn Jobs</h3>
+                            <span class="stat-value" id="li-jobs-count">0</span>
+                        </div>
+                    </div>
+                    <div class="stat-card linkedin-posts">
+                        <div class="stat-icon"><i class="fa-solid fa-paper-plane"></i></div>
+                        <div class="stat-details">
+                            <h3>LinkedIn Posts</h3>
+                            <span class="stat-value" id="li-posts-count">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Leads & CRM Summary -->
+                <div class="dashboard-widgets">
+                    <div class="widget card">
+                        <div class="widget-header">
+                            <h3><i class="fa-solid fa-clock-rotate-left"></i> Latest 5 Leads</h3>
+                            <span class="badge">Fresh</span>
+                        </div>
+                        <div class="widget-body">
+                            <div class="table-container">
+                                <table class="leads-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Source</th>
+                                            <th>Date</th>
+                                            <th>Lead Details</th>
+                                            <th>Status</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="recent-leads-tbody">
+                                        <!-- Dynamically populated -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Leads Tab (Dynamic Table View) -->
+            <section class="tab-content" id="tab-leads-view">
+                <!-- Toolbar -->
+                <div class="toolbar card">
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="lead-search" placeholder="Search posts, titles, descriptions...">
+                    </div>
+                    <div class="filters">
+                        <select id="filter-status">
+                            <option value="all">All Statuses</option>
+                            <option value="new">New</option>
+                            <option value="contacted">Contacted</option>
+                            <option value="ignored">Ignored</option>
+                        </select>
+                        <button class="btn btn-secondary" id="clear-filters-btn">Clear</button>
+                    </div>
+                </div>
+
+                <!-- Leads Table Widget -->
+                <div class="widget card">
+                    <div class="widget-body">
+                        <div class="table-container">
+                            <table class="leads-table" id="main-leads-table">
+                                <thead id="leads-table-thead">
+                                    <!-- Dynamic based on source -->
+                                </thead>
+                                <tbody id="leads-table-tbody">
+                                    <!-- Dynamic -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="empty-state" id="table-empty-state">
+                            <i class="fa-regular fa-folder-open"></i>
+                            <h3>No leads found</h3>
+                            <p>Try adjusting your search keywords or filters.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Custom Script -->
+    <script src="app.js"></script>
+</body>
+</html>
