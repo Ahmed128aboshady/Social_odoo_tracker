@@ -92,9 +92,9 @@ document.addEventListener("DOMContentLoaded", () => {
         select.className = `status-select status-${currentStatus}`;
         
         const options = [
-            { value: "new", label: "Pending" },
+            { value: "new", label: "New" },
             { value: "qualified", label: "Qualified" },
-            { value: "unqualified", label: "Unqualified" }
+            { value: "unqualified", label: "None Qualified" }
         ];
         
         options.forEach(opt => {
@@ -127,9 +127,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Calculate totals
     function updateStats() {
-        const fbTotal = state.leads.facebook.length;
-        const liJobsTotal = state.leads.linkedin_jobs.length;
-        const liPostsTotal = state.leads.linkedin_posts.length;
+    // Calculate totals (New/Unreviewed only)
+    function updateStats() {
+        const fbTotal = state.leads.facebook.filter(l => getLeadStatus(l.post_url) === "new").length;
+        const liJobsTotal = state.leads.linkedin_jobs.filter(l => getLeadStatus(l.job_url) === "new").length;
+        const liPostsTotal = state.leads.linkedin_posts.filter(l => getLeadStatus(l.post_url) === "new").length;
         const total = fbTotal + liJobsTotal + liPostsTotal;
 
         totalCount.textContent = total;
@@ -147,19 +149,22 @@ document.addEventListener("DOMContentLoaded", () => {
             ...state.leads.linkedin_posts.map(l => ({ ...l, source: "linkedin-posts", id: l.post_url }))
         ];
 
+        // Filter for "new" leads only
+        const newLeads = allLeads.filter(l => getLeadStatus(l.id) === "new");
+
         // Sort by date descending (handle empty dates gracefully)
-        allLeads.sort((a, b) => {
+        newLeads.sort((a, b) => {
             const dateA = a.date ? new Date(a.date) : new Date(0);
             const dateB = b.date ? new Date(b.date) : new Date(0);
             return dateB - dateA;
         });
 
         // Take top 5
-        const recent = allLeads.slice(0, 5);
+        const recent = newLeads.slice(0, 5);
         recentLeadsTbody.innerHTML = "";
 
         if (recent.length === 0) {
-            recentLeadsTbody.innerHTML = `<tr><td colspan="5" style="text-align: center; color: var(--text-secondary)">No leads found yet. Run python tracker.py first.</td></tr>`;
+            recentLeadsTbody.innerHTML = `<tr><td colspan="5" style="text-align: center; color: var(--text-secondary)">No new/unreviewed leads. Good job!</td></tr>`;
             return;
         }
 
@@ -449,7 +454,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 pageTitle.textContent = "Qualified Leads";
                 pageSubtitle.textContent = "Leads that have been vetted and approved for contact";
             } else if (tabId === "unqualified") {
-                pageTitle.textContent = "Unqualified Leads";
+                pageTitle.textContent = "None Qualified Leads";
                 pageSubtitle.textContent = "Leads that did not match the Odoo ERP criteria";
             }
             

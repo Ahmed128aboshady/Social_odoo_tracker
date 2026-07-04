@@ -11,7 +11,7 @@
     <!-- FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom Style -->
-    <link rel="stylesheet" href="style.css?v=5">
+    <link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
     <div class="app-container">
@@ -38,7 +38,7 @@
                     <i class="fa-solid fa-circle-check" style="color: var(--color-success)"></i> Qualified
                 </button>
                 <button class="nav-btn" data-tab="unqualified">
-                    <i class="fa-solid fa-circle-xmark" style="color: var(--color-danger)"></i> Unqualified
+                    <i class="fa-solid fa-circle-xmark" style="color: var(--color-danger)"></i> None Qualified
                 </button>
             </nav>
             <div class="sidebar-footer">
@@ -137,9 +137,9 @@
                     <div class="filters">
                         <select id="filter-status">
                             <option value="all">All Statuses</option>
-                            <option value="new">Pending</option>
+                            <option value="new">New</option>
                             <option value="qualified">Qualified</option>
-                            <option value="unqualified">Unqualified</option>
+                            <option value="unqualified">None Qualified</option>
                         </select>
                         <button class="btn btn-secondary" id="clear-filters-btn">Clear</button>
                     </div>
