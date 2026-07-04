@@ -198,11 +198,11 @@ document.addEventListener("DOMContentLoaded", () => {
             const d = lead.date ? lead.date.split('T')[0] : "N/A";
 
             tr.innerHTML = `
-                <td><span class="badge ${sourceClass}">${sourceLabel}</span></td>
-                <td style="white-space: nowrap; color: var(--text-secondary)">${d}</td>
-                <td><div class="text-truncate" title="${details.replace(/"/g, '&quot;')}">${details}</div></td>
-                <td class="status-cell"></td>
-                <td><a href="${leadLink}" target="_blank" class="lead-link"><i class="fa-solid fa-external-link"></i> Open</a></td>
+                <td data-label="Source"><span class="badge ${sourceClass}">${sourceLabel}</span></td>
+                <td data-label="Date" style="white-space: nowrap; color: var(--text-secondary)">${d}</td>
+                <td data-label="Details"><div class="text-truncate" title="${details.replace(/"/g, '&quot;')}">${details}</div></td>
+                <td data-label="Status" class="status-cell"></td>
+                <td data-label="Link"><a href="${leadLink}" target="_blank" class="lead-link"><i class="fa-solid fa-external-link"></i> Open</a></td>
             `;
 
             // Append status select
@@ -307,32 +307,32 @@ document.addEventListener("DOMContentLoaded", () => {
             if (state.currentTab === "facebook") {
                 const displayAuthor = item.author_url ? item.author_url.split('/')[4] || "View Profile" : "Profile Link";
                 tr.innerHTML = `
-                    <td style="color: var(--text-secondary); white-space: nowrap">${d}</td>
-                    <td><a href="${item.author_url}" target="_blank" class="lead-link"><i class="fa-brands fa-facebook"></i> ${displayAuthor}</a></td>
-                    <td><div class="text-truncate" style="max-width: 500px;" title="${item.post_text.replace(/"/g, '&quot;')}">${item.post_text}</div></td>
-                    <td class="status-cell"></td>
-                    <td><a href="${item.post_url}" target="_blank" class="lead-link"><i class="fa-solid fa-external-link"></i> Open</a></td>
+                    <td data-label="Date" style="color: var(--text-secondary); white-space: nowrap">${d}</td>
+                    <td data-label="Profile"><a href="${item.author_url}" target="_blank" class="lead-link"><i class="fa-brands fa-facebook"></i> ${displayAuthor}</a></td>
+                    <td data-label="Content"><div class="text-truncate" style="max-width: 500px;" title="${item.post_text.replace(/"/g, '&quot;')}">${item.post_text}</div></td>
+                    <td data-label="Status" class="status-cell"></td>
+                    <td data-label="Link"><a href="${item.post_url}" target="_blank" class="lead-link"><i class="fa-solid fa-external-link"></i> Open</a></td>
                 `;
             } else if (state.currentTab === "linkedin-jobs") {
                 tr.innerHTML = `
-                    <td style="color: var(--text-secondary); white-space: nowrap">${d}</td>
-                    <td>
+                    <td data-label="Date" style="color: var(--text-secondary); white-space: nowrap">${d}</td>
+                    <td data-label="Job Info">
                         <strong style="display:block;">${item.job_title}</strong>
                         <span style="font-size:12px; color: var(--text-secondary)">${item.company} | ${item.location}</span>
                     </td>
-                    <td><div class="text-truncate" style="max-width: 500px;" title="${item.description.replace(/"/g, '&quot;')}">${item.description}</div></td>
-                    <td class="status-cell"></td>
-                    <td><a href="${item.job_url}" target="_blank" class="lead-link"><i class="fa-solid fa-external-link"></i> Apply</a></td>
+                    <td data-label="Excerpt"><div class="text-truncate" style="max-width: 500px;" title="${item.description.replace(/"/g, '&quot;')}">${item.description}</div></td>
+                    <td data-label="Status" class="status-cell"></td>
+                    <td data-label="Link"><a href="${item.job_url}" target="_blank" class="lead-link"><i class="fa-solid fa-external-link"></i> Apply</a></td>
                 `;
             } else if (state.currentTab === "linkedin-posts") {
                 const authorDisplay = item.author_name || "LinkedIn User";
                 const authorLink = item.author_url ? `<a href="${item.author_url}" target="_blank" class="lead-link"><i class="fa-brands fa-linkedin"></i> ${authorDisplay}</a>` : `<span style="color:var(--text-secondary)">${authorDisplay}</span>`;
                 tr.innerHTML = `
-                    <td style="color: var(--text-secondary); white-space: nowrap">${d}</td>
-                    <td>${authorLink}</td>
-                    <td><div class="text-truncate" style="max-width: 500px;" title="${item.post_text.replace(/"/g, '&quot;')}">${item.post_text}</div></td>
-                    <td class="status-cell"></td>
-                    <td><a href="${item.post_url}" target="_blank" class="lead-link"><i class="fa-solid fa-external-link"></i> Open</a></td>
+                    <td data-label="Date" style="color: var(--text-secondary); white-space: nowrap">${d}</td>
+                    <td data-label="Author">${authorLink}</td>
+                    <td data-label="Content"><div class="text-truncate" style="max-width: 500px;" title="${item.post_text.replace(/"/g, '&quot;')}">${item.post_text}</div></td>
+                    <td data-label="Status" class="status-cell"></td>
+                    <td data-label="Link"><a href="${item.post_url}" target="_blank" class="lead-link"><i class="fa-solid fa-external-link"></i> Open</a></td>
                 `;
             }
 
