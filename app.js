@@ -125,8 +125,6 @@ document.addEventListener("DOMContentLoaded", () => {
         return select;
     }
 
-    // Calculate totals
-    function updateStats() {
     // Calculate totals (New/Unreviewed only)
     function updateStats() {
         const fbTotal = state.leads.facebook.filter(l => getLeadStatus(l.post_url) === "new").length;
