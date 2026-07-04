@@ -94,6 +94,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const options = [
             { value: "new", label: "New" },
             { value: "contacted", label: "Contacted" },
+            { value: "qualified", label: "Qualified" },
+            { value: "unqualified", label: "Unqualified" },
             { value: "ignored", label: "Ignored" }
         ];
         
@@ -260,29 +262,63 @@ document.addEventListener("DOMContentLoaded", () => {
                     <th style="width: 120px">Action</th>
                 </tr>
             `;
+        } else if (state.currentTab === "qualified" || state.currentTab === "unqualified") {
+            data = [
+                ...state.leads.facebook.map(l => ({ ...l, source: "facebook", id: l.post_url })),
+                ...state.leads.linkedin_jobs.map(l => ({ ...l, source: "linkedin-jobs", id: l.job_url })),
+                ...state.leads.linkedin_posts.map(l => ({ ...l, source: "linkedin-posts", id: l.post_url }))
+            ];
+            keyCol = "id";
+            
+            leadsTableThead.innerHTML = `
+                <tr>
+                    <th style="width: 120px">Source</th>
+                    <th style="width: 130px">Date</th>
+                    <th>Details</th>
+                    <th style="width: 150px">Status</th>
+                    <th style="width: 120px">Action</th>
+                </tr>
+            `;
         }
 
         // Apply filters (search & CRM status)
-        let filtered = data.filter(item => {
-            // 1. Status Filter
-            const itemStatus = getLeadStatus(item.id);
-            if (state.statusFilter !== "all" && itemStatus !== state.statusFilter) {
-                return false;
-            }
-
-            // 2. Search Query Filter
-            if (state.searchQuery) {
-                const query = state.searchQuery.toLowerCase();
-                if (state.currentTab === "facebook") {
-                    return item.post_text.toLowerCase().includes(query) || item.author_url.toLowerCase().includes(query);
-                } else if (state.currentTab === "linkedin-jobs") {
-                    return item.job_title.toLowerCase().includes(query) || item.company.toLowerCase().includes(query) || item.location.toLowerCase().includes(query) || item.description.toLowerCase().includes(query);
-                } else if (state.currentTab === "linkedin-posts") {
-                    return item.post_text.toLowerCase().includes(query) || item.author_name.toLowerCase().includes(query);
+        let filtered = [];
+        if (state.currentTab === "qualified" || state.currentTab === "unqualified") {
+            filtered = data.filter(item => {
+                const itemStatus = getLeadStatus(item.id);
+                if (itemStatus !== state.currentTab) return false;
+                
+                if (state.searchQuery) {
+                    const query = state.searchQuery.toLowerCase();
+                    const details = item.source === "facebook" ? item.post_text : 
+                                    item.source === "linkedin-jobs" ? `${item.job_title} ${item.company}` : 
+                                    `${item.author_name} ${item.post_text}`;
+                    return details.toLowerCase().includes(query);
                 }
-            }
-            return true;
-        });
+                return true;
+            });
+        } else {
+            filtered = data.filter(item => {
+                // 1. Status Filter
+                const itemStatus = getLeadStatus(item.id);
+                if (state.statusFilter !== "all" && itemStatus !== state.statusFilter) {
+                    return false;
+                }
+
+                // 2. Search Query Filter
+                if (state.searchQuery) {
+                    const query = state.searchQuery.toLowerCase();
+                    if (state.currentTab === "facebook") {
+                        return item.post_text.toLowerCase().includes(query) || item.author_url.toLowerCase().includes(query);
+                    } else if (state.currentTab === "linkedin-jobs") {
+                        return item.job_title.toLowerCase().includes(query) || item.company.toLowerCase().includes(query) || item.location.toLowerCase().includes(query) || item.description.toLowerCase().includes(query);
+                    } else if (state.currentTab === "linkedin-posts") {
+                        return item.post_text.toLowerCase().includes(query) || item.author_name.toLowerCase().includes(query);
+                    }
+                }
+                return true;
+            });
+        }
 
         // Sort items by date desc
         filtered.sort((a, b) => {
@@ -334,6 +370,36 @@ document.addEventListener("DOMContentLoaded", () => {
                     <td data-label="Status" class="status-cell"></td>
                     <td data-label="Link"><a href="${item.post_url}" target="_blank" class="lead-link"><i class="fa-solid fa-external-link"></i> Open</a></td>
                 `;
+            } else if (state.currentTab === "qualified" || state.currentTab === "unqualified") {
+                let sourceLabel = "";
+                let sourceClass = "";
+                let details = "";
+                let leadLink = "";
+                
+                if (item.source === "facebook") {
+                    sourceLabel = "FB Groups";
+                    sourceClass = "source-facebook";
+                    details = item.post_text;
+                    leadLink = item.post_url;
+                } else if (item.source === "linkedin-jobs") {
+                    sourceLabel = "LI Jobs";
+                    sourceClass = "source-linkedin-jobs";
+                    details = `${item.job_title} at ${item.company} (${item.location})`;
+                    leadLink = item.job_url;
+                } else {
+                    sourceLabel = "LI Posts";
+                    sourceClass = "source-linkedin-posts";
+                    details = `${item.author_name ? item.author_name + ': ' : ''}${item.post_text}`;
+                    leadLink = item.post_url;
+                }
+
+                tr.innerHTML = `
+                    <td data-label="Source"><span class="badge ${sourceClass}">${sourceLabel}</span></td>
+                    <td data-label="Date" style="color: var(--text-secondary); white-space: nowrap">${d}</td>
+                    <td data-label="Details"><div class="text-truncate" style="max-width: 500px;" title="${details.replace(/"/g, '&quot;')}">${details}</div></td>
+                    <td data-label="Status" class="status-cell"></td>
+                    <td data-label="Link"><a href="${leadLink}" target="_blank" class="lead-link"><i class="fa-solid fa-external-link"></i> Open</a></td>
+                `;
             }
 
             // Append status select
@@ -381,6 +447,12 @@ document.addEventListener("DOMContentLoaded", () => {
             } else if (tabId === "linkedin-posts") {
                 pageTitle.textContent = "LinkedIn Posts & Inquiries";
                 pageSubtitle.textContent = "Social posts from individuals looking for ERP implementations";
+            } else if (tabId === "qualified") {
+                pageTitle.textContent = "Qualified Leads";
+                pageSubtitle.textContent = "Leads that have been vetted and approved for contact";
+            } else if (tabId === "unqualified") {
+                pageTitle.textContent = "Unqualified Leads";
+                pageSubtitle.textContent = "Leads that did not match the Odoo ERP criteria";
             }
             
             renderLeadsTable();
