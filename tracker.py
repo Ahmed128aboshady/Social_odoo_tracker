@@ -292,10 +292,15 @@ try:
 
     # Save to leads.json
     LEADS_JSON_PATH = os.path.join(os.path.dirname(__file__), "leads.json")
+    
+    df_fb_clean = df_fb.where(pd.notnull(df_fb), None)
+    df_li_jobs_clean = df_li_jobs.where(pd.notnull(df_li_jobs), None)
+    df_li_posts_clean = df_li_posts.where(pd.notnull(df_li_posts), None)
+
     leads_data = {
-        "facebook": df_fb.to_dict(orient="records"),
-        "linkedin_jobs": df_li_jobs.to_dict(orient="records"),
-        "linkedin_posts": df_li_posts.to_dict(orient="records")
+        "facebook": df_fb_clean.to_dict(orient="records"),
+        "linkedin_jobs": df_li_jobs_clean.to_dict(orient="records"),
+        "linkedin_posts": df_li_posts_clean.to_dict(orient="records")
     }
     try:
         with open(LEADS_JSON_PATH, "w", encoding="utf-8") as json_file:
